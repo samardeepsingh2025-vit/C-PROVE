@@ -1,0 +1,79 @@
+[
+ {
+  "scheduler": "none",
+  "budget": 0.0,
+  "auroc": 0.7432472691161867,
+  "auprc": 0.5876971790979961,
+  "calls_per_summary": 0.0
+ },
+ {
+  "scheduler": "random",
+  "budget": 0.1,
+  "auroc": 0.7428003972194638,
+  "auprc": 0.5282517653155997,
+  "calls_per_summary": 2.35
+ },
+ {
+  "scheduler": "random",
+  "budget": 0.25,
+  "auroc": 0.7118669314796425,
+  "auprc": 0.469012243735803,
+  "calls_per_summary": 5.400000000000001
+ },
+ {
+  "scheduler": "random",
+  "budget": 0.5,
+  "auroc": 0.7091194968553459,
+  "auprc": 0.4658955761102299,
+  "calls_per_summary": 10.3
+ },
+ {
+  "scheduler": "entropy",
+  "budget": 0.1,
+  "auroc": 0.7411949685534591,
+  "auprc": 0.5675122491925982,
+  "calls_per_summary": 2.35
+ },
+ {
+  "scheduler": "entropy",
+  "budget": 0.25,
+  "auroc": 0.7421218139688845,
+  "auprc": 0.5486155848519256,
+  "calls_per_summary": 5.4
+ },
+ {
+  "scheduler": "entropy",
+  "budget": 0.5,
+  "auroc": 0.7511916583912611,
+  "auprc": 0.534041023673216,
+  "calls_per_summary": 10.3
+ },
+ {
+  "scheduler": "voi",
+  "budget": 0.1,
+  "auroc": 0.7411949685534591,
+  "auprc": 0.5675122491925982,
+  "calls_per_summary": 2.35
+ },
+ {
+  "scheduler": "voi",
+  "budget": 0.25,
+  "auroc": 0.7426183382985767,
+  "auprc": 0.5514301222890556,
+  "calls_per_summary": 5.4
+ },
+ {
+  "scheduler": "voi",
+  "budget": 0.5,
+  "auroc": 0.7511916583912611,
+  "auprc": 0.534041023673216,
+  "calls_per_summary": 10.3
+ },
+ {
+  "scheduler": "all",
+  "budget": 1.0,
+  "auroc": 0.7380172128434294,
+  "auprc": 0.48511886652993863,
+  "calls_per_summary": 20.1
+ }
+]

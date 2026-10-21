@@ -1,0 +1,27 @@
+<!-- Alternative to the Gradio tool: Label Studio labelling config.
+     Import data/meetverify/items.jsonl (one task per line; fields text, evidence, full_window). -->
+<View>
+  <Header value="Claim"/>
+  <Text name="claim" value="$text"/>
+  <Header value="Retrieved evidence"/>
+  <Text name="evidence" value="$evidence"/>
+  <Collapse>
+    <Panel value="Wider transcript window">
+      <Text name="window" value="$full_window"/>
+    </Panel>
+  </Collapse>
+  <Choices name="label" toName="claim" choice="single" required="true">
+    <Choice value="SUPPORTED"/>
+    <Choice value="UNSUPPORTED"/>
+    <Choice value="UNVERIFIABLE"/>
+  </Choices>
+  <View visibleWhen="choice-selected" whenTagName="label" whenChoiceValue="UNSUPPORTED">
+    <Choices name="error_type" toName="claim" choice="single">
+      <Choice value="entity"/><Choice value="negation"/><Choice value="attribution_swap"/>
+      <Choice value="time_shift"/><Choice value="revision_ignored"/><Choice value="status_flip"/>
+      <Choice value="dependency_cascade"/><Choice value="fabrication"/><Choice value="other"/>
+    </Choices>
+  </View>
+  <TextArea name="evidence_uids" toName="claim" placeholder="Evidence utterance ids, comma separated" rows="1"/>
+  <TextArea name="edges" toName="claim" placeholder="optional edges: revises:S03c0; task_depends:S05c1" rows="1"/>
+</View>

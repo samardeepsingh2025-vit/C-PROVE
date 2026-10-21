@@ -1,0 +1,74 @@
+{
+  "eval": {
+    "eval_loss": 2.115757465362549,
+    "eval_macro_f1": 0.1308141275822331,
+    "eval_acc": 0.30710659898477155,
+    "eval_runtime": 1.3718,
+    "eval_samples_per_second": 287.211,
+    "eval_steps_per_second": 5.103,
+    "epoch": 6.0
+  },
+  "report": {
+    "proposed": {
+      "precision": 0.5028248587570622,
+      "recall": 0.46596858638743455,
+      "f1-score": 0.483695652173913,
+      "support": 191.0
+    },
+    "agreed": {
+      "precision": 0.07142857142857142,
+      "recall": 0.041666666666666664,
+      "f1-score": 0.05263157894736842,
+      "support": 24.0
+    },
+    "decided": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 8.0
+    },
+    "rejected": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "assigned": {
+      "precision": 0.20224719101123595,
+      "recall": 0.5142857142857142,
+      "f1-score": 0.2903225806451613,
+      "support": 35.0
+    },
+    "deferred": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 8.0
+    },
+    "revised": {
+      "precision": 0.08433734939759036,
+      "recall": 0.21212121212121213,
+      "f1-score": 0.1206896551724138,
+      "support": 33.0
+    },
+    "stated": {
+      "precision": 0.1935483870967742,
+      "recall": 0.06666666666666667,
+      "f1-score": 0.09917355371900827,
+      "support": 90.0
+    },
+    "accuracy": 0.30710659898477155,
+    "macro avg": {
+      "precision": 0.13179829471140425,
+      "recall": 0.1625886057659618,
+      "f1-score": 0.1308141275822331,
+      "support": 394.0
+    },
+    "weighted avg": {
+      "precision": 0.3173476466779391,
+      "recall": 0.30710659898477155,
+      "f1-score": 0.29624034578156155,
+      "support": 394.0
+    }
+  }
+}

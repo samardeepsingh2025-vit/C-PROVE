@@ -1,0 +1,24 @@
+=== TRANSCRIPT (paste into the transcript box) ===
+Project Manager: Okay, let's start. Today we need to finalise the remote control design and the budget.
+Industrial Designer: I prepared the casing. I suggest rubber, it's soft and cheap, and it should help with repetitive strain.
+Marketing: Rubber is fine. For colour I'd go yellow, that's our company colour. Black is boring.
+User Interface: I'd like a scroll wheel for volume, but it costs extra.
+Project Manager: What is the budget again?
+Marketing: The target selling price is twenty five euros and the production cost has to stay under twelve and a half euros.
+Project Manager: Right. Then the scroll wheel is out, we use two buttons for volume. Agreed?
+Industrial Designer: Agreed.
+User Interface: Fine by me.
+Project Manager: Next, the LCD screen. Marketing, you wanted it?
+Marketing: I did, but it is too expensive. Let's drop it.
+Project Manager: Okay, no LCD. Industrial Designer, you will make the final prototype by Friday.
+Industrial Designer: Yes, by Friday.
+Project Manager: User Interface, please prepare the usability test for next week.
+User Interface: Will do.
+
+=== SUMMARY (paste into the summary box; errors planted) ===
+The team agreed to use rubber casing in the company colour yellow. The target selling price was set at thirty euros. The group decided to keep the scroll wheel for volume control. The LCD screen was dropped because of cost. The Industrial Designer will deliver the final prototype by Friday. Marketing will prepare the usability test.
+
+(Errors: price 30 not 25 [fabricated number]; scroll wheel kept [opposite of decision]; usability test given to Marketing [wrong speaker]. Correct claims: rubber+yellow, LCD dropped, prototype by Friday.)
+
+=== SPOKEN PARAGRAPH (read aloud if using the microphone; it becomes the transcript) ===
+Project Manager here. Today we finalise the remote control. The Industrial Designer suggests a rubber casing, and Marketing wants the company colour, yellow. The target selling price is twenty five euros. The user interface designer wanted a scroll wheel, but it costs extra, so we agreed to use two volume buttons instead. We also dropped the LCD screen because it is too expensive. The Industrial Designer will deliver the final prototype by Friday, and the user interface designer will prepare the usability test for next week.

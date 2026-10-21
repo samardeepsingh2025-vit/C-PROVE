@@ -1,0 +1,21 @@
+[project]
+name = "cprove"
+version = "1.0.0"
+description = "C-PROVE: graph-based neuro-symbolic claim verification for meeting summarisation"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "pyyaml", "networkx", "torch", "tabulate", "matplotlib", "requests"]
+
+[project.optional-dependencies]
+models = ["transformers>=4.44", "sentence-transformers", "datasets", "accelerate", "llama-cpp-python"]
+train = ["peft", "trl", "bitsandbytes"]
+demo = ["gradio"]
+dev = ["pytest"]
+
+[project.scripts]
+cprove = "cprove.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cprove*", "bench*", "experiments*", "train*", "baselines*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

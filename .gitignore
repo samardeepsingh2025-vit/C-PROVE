@@ -1,0 +1,25 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.env
+# big / regenerable
+cache/*
+!cache/adaptive_results.json
+!cache/adaptive_budget.png
+models/.cache/
+models/hf/
+models/smoke/
+models/status_clf_ckpt/
+*.pt
+*.bin
+*.safetensors
+outputs/smoke/
+# raw public corpus (download it, don't commit)
+data/ami_public_manual_1.6.2/
+data/smoke/
+# external clones
+../tofueval/

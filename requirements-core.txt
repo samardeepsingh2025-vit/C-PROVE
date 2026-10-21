@@ -1,0 +1,22 @@
+# core (CPU smoke test needs only these)
+numpy
+pandas
+scipy
+scikit-learn
+pyyaml
+networkx
+tabulate
+matplotlib
+requests
+torch
+# real models
+transformers>=4.44
+sentence-transformers
+datasets
+accelerate
+# local LLM (Windows+CUDA: use the prebuilt wheel, see SETUP_AND_RUN.md)
+# demo / annotation
+gradio
+# optional training / baselines
+# peft trl bitsandbytes summac
+pytest

@@ -1,0 +1,402 @@
+{"idx": 36, "cid": "TS3010a__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "brainstorm of experiences"}
+{"idx": 37, "cid": "TS3010a__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 42, "cid": "TS3010a__qwen2.5-7b_s07c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "vague"}
+{"idx": 44, "cid": "TS3010a__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 79, "cid": "TS3010a__qwen2.5-7b_s02c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 89, "cid": "TS3010a__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "marketing wants compatibility"}
+{"idx": 112, "cid": "TS3010a__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "requirement given by PM not team decision"}
+{"idx": 115, "cid": "TS3010a__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 149, "cid": "TS3010a__qwen2.5-7b_s06c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 169, "cid": "TS3010a__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 185, "cid": "TS3010a__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": "pen used for animal drawing only"}
+{"idx": 187, "cid": "TS3010a__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": "eraser for drawing only"}
+{"idx": 227, "cid": "TS3010a__qwen2.5-7b_s03c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "save documents each time"}
+{"idx": 266, "cid": "TS3010a__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "requirement not decision"}
+{"idx": 268, "cid": "TS3010a__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 376, "cid": "TS3010a__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 396, "cid": "TS3010a__qwen2.5-7b_s07c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": "not stated as action"}
+{"idx": 64, "cid": "TS3010c__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "UI personal opinion, not a team decision"}
+{"idx": 90, "cid": "TS3010c__qwen2.5-7b_s04c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "Industrial Designer to look up chip/LCD cost"}
+{"idx": 118, "cid": "TS3010c__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 132, "cid": "TS3010c__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 168, "cid": "TS3010c__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 240, "cid": "TS3010c__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 261, "cid": "TS3010c__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 264, "cid": "TS3010c__qwen2.5-7b_s03c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "concept discussed"}
+{"idx": 274, "cid": "TS3010c__qwen2.5-7b_s01c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": "standard icon placement not proposed"}
+{"idx": 311, "cid": "TS3010c__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 319, "cid": "TS3010c__qwen2.5-7b_s05c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "PM prefers small joystick if cheap"}
+{"idx": 351, "cid": "TS3010c__qwen2.5-7b_s01c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 354, "cid": "TS3010c__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 374, "cid": "TS3010c__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 379, "cid": "TS3010c__qwen2.5-7b_s03c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "PM asks ID to check LCD cost"}
+{"idx": 389, "cid": "TS3010c__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 395, "cid": "TS3010c__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "ID checks LCD cost"}
+{"idx": 397, "cid": "TS3010c__qwen2.5-7b_s04c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": "no such action item"}
+{"idx": 398, "cid": "TS3010c__qwen2.5-7b_s06c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "PM everything ready next meeting"}
+{"idx": 67, "cid": "ES2010a__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 70, "cid": "ES2010a__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 78, "cid": "ES2010a__qwen2.5-7b_s05c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 104, "cid": "ES2010a__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 123, "cid": "ES2010a__qwen2.5-7b_s02c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 134, "cid": "ES2010a__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 145, "cid": "ES2010a__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 167, "cid": "ES2010a__qwen2.5-7b_s03c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "stated by PM"}
+{"idx": 193, "cid": "ES2010a__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 263, "cid": "ES2010a__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 281, "cid": "ES2010a__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 327, "cid": "ES2010a__qwen2.5-7b_s05c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 342, "cid": "ES2010a__qwen2.5-7b_s03c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "stated by PM"}
+{"idx": 344, "cid": "ES2010a__qwen2.5-7b_s01c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 375, "cid": "ES2010a__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 11, "cid": "ES2003a__qwen2.5-7b_s02c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "low", "note": "proposed, PM called it a good idea"}
+{"idx": 17, "cid": "ES2003a__qwen2.5-7b_s03c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 52, "cid": "ES2003a__qwen2.5-7b_s05c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "low", "note": "marketing suggestion"}
+{"idx": 56, "cid": "ES2003a__qwen2.5-7b_s00c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 76, "cid": "ES2003a__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "low", "note": "proposed not decided"}
+{"idx": 81, "cid": "ES2003a__qwen2.5-7b_s03c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 111, "cid": "ES2003a__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 119, "cid": "ES2003a__qwen2.5-7b_s00c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 133, "cid": "ES2003a__qwen2.5-7b_s03c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 173, "cid": "ES2003a__qwen2.5-7b_s07c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 189, "cid": "ES2003a__qwen2.5-7b_s07c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": "stick discussed"}
+{"idx": 219, "cid": "ES2003a__qwen2.5-7b_s03c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 225, "cid": "ES2003a__qwen2.5-7b_s00c3", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 242, "cid": "ES2003a__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 269, "cid": "ES2003a__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 304, "cid": "ES2003a__qwen2.5-7b_s04c1", "label": "UNSUPPORTED", "error_type": "other", "evidence_uids": [], "conf": "high", "note": "profit aim is 50 million Euros not units"}
+{"idx": 328, "cid": "ES2003a__qwen2.5-7b_s02c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 331, "cid": "ES2003a__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 372, "cid": "ES2003a__qwen2.5-7b_s07c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 399, "cid": "ES2003a__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 13, "cid": "ES2015a__qwen2.5-7b_s03c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 62, "cid": "ES2015a__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 116, "cid": "ES2015a__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 138, "cid": "ES2015a__qwen2.5-7b_s04c3", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 150, "cid": "ES2015a__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 182, "cid": "ES2015a__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 201, "cid": "ES2015a__qwen2.5-7b_s00c3", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 217, "cid": "ES2015a__qwen2.5-7b_s05c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": "next is functional design"}
+{"idx": 232, "cid": "ES2015a__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 233, "cid": "ES2015a__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 259, "cid": "ES2015a__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 325, "cid": "ES2015a__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 332, "cid": "ES2015a__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 364, "cid": "ES2015a__qwen2.5-7b_s04c2", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "UI does technical functions design"}
+{"idx": 385, "cid": "ES2015a__qwen2.5-7b_s04c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "high", "note": "PM Heather takes minutes"}
+{"idx": 386, "cid": "ES2015a__qwen2.5-7b_s03c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 390, "cid": "ES2015a__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 1, "cid": "ES2010d__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 23, "cid": "ES2010d__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 58, "cid": "ES2010d__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 71, "cid": "ES2010d__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 73, "cid": "ES2010d__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 74, "cid": "ES2010d__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 99, "cid": "ES2010d__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 127, "cid": "ES2010d__qwen2.5-7b_s00c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 170, "cid": "ES2010d__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 229, "cid": "ES2010d__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "only the fashion criterion averaged 2.5"}
+{"idx": 243, "cid": "ES2010d__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 284, "cid": "ES2010d__qwen2.5-7b_s04c2", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 355, "cid": "ES2010d__qwen2.5-7b_s04c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "joke not decision"}
+{"idx": 366, "cid": "ES2010d__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 387, "cid": "ES2010d__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 22, "cid": "ES2006a__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "low", "note": "ID's own suggestion"}
+{"idx": 29, "cid": "ES2006a__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 41, "cid": "ES2006a__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 46, "cid": "ES2006a__qwen2.5-7b_s06c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 61, "cid": "ES2006a__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 63, "cid": "ES2006a__qwen2.5-7b_s00c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 65, "cid": "ES2006a__qwen2.5-7b_s07c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 86, "cid": "ES2006a__qwen2.5-7b_s08c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 103, "cid": "ES2006a__qwen2.5-7b_s07c1", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 122, "cid": "ES2006a__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 128, "cid": "ES2006a__qwen2.5-7b_s02c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 136, "cid": "ES2006a__qwen2.5-7b_s04c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 152, "cid": "ES2006a__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "ID did not get this task"}
+{"idx": 183, "cid": "ES2006a__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 204, "cid": "ES2006a__qwen2.5-7b_s02c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 223, "cid": "ES2006a__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 310, "cid": "ES2006a__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 323, "cid": "ES2006a__qwen2.5-7b_s01c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "UI asked, did not propose"}
+{"idx": 336, "cid": "ES2006a__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 363, "cid": "ES2006a__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 10, "cid": "ES2003b__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 18, "cid": "ES2003b__qwen2.5-7b_s08c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 28, "cid": "ES2003b__qwen2.5-7b_s07c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 75, "cid": "ES2003b__qwen2.5-7b_s06c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 105, "cid": "ES2003b__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 120, "cid": "ES2003b__qwen2.5-7b_s04c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 143, "cid": "ES2003b__qwen2.5-7b_s00c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 191, "cid": "ES2003b__qwen2.5-7b_s04c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 212, "cid": "ES2003b__qwen2.5-7b_s01c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "voice recognition never decided"}
+{"idx": 222, "cid": "ES2003b__qwen2.5-7b_s07c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 228, "cid": "ES2003b__qwen2.5-7b_s09c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 255, "cid": "ES2003b__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 262, "cid": "ES2003b__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 265, "cid": "ES2003b__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 271, "cid": "ES2003b__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 289, "cid": "ES2003b__qwen2.5-7b_s03c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 292, "cid": "ES2003b__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 357, "cid": "ES2003b__qwen2.5-7b_s08c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "PM suggestion, no objection"}
+{"idx": 3, "cid": "ES2003c__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 12, "cid": "ES2003c__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 35, "cid": "ES2003c__qwen2.5-7b_s07c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 40, "cid": "ES2003c__qwen2.5-7b_s04c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "low", "note": "PM proposed yellow"}
+{"idx": 43, "cid": "ES2003c__qwen2.5-7b_s00c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 80, "cid": "ES2003c__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 117, "cid": "ES2003c__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 137, "cid": "ES2003c__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 156, "cid": "ES2003c__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 239, "cid": "ES2003c__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 279, "cid": "ES2003c__qwen2.5-7b_s05c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 287, "cid": "ES2003c__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 303, "cid": "ES2003c__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 308, "cid": "ES2003c__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "UI described booklet as annoying; proposed computer hookup"}
+{"idx": 309, "cid": "ES2003c__qwen2.5-7b_s06c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 316, "cid": "ES2003c__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 326, "cid": "ES2003c__qwen2.5-7b_s03c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 335, "cid": "ES2003c__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 341, "cid": "ES2003c__qwen2.5-7b_s05c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 388, "cid": "ES2003c__qwen2.5-7b_s06c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 39, "cid": "ES2003d__qwen2.5-7b_s05c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "average 3"}
+{"idx": 47, "cid": "ES2003d__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 69, "cid": "ES2003d__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 108, "cid": "ES2003d__qwen2.5-7b_s03c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": "PM already updated sheet in meeting"}
+{"idx": 165, "cid": "ES2003d__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 172, "cid": "ES2003d__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 184, "cid": "ES2003d__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 231, "cid": "ES2003d__qwen2.5-7b_s06c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 236, "cid": "ES2003d__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 237, "cid": "ES2003d__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 241, "cid": "ES2003d__qwen2.5-7b_s02c3", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "vague"}
+{"idx": 247, "cid": "ES2003d__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 260, "cid": "ES2003d__qwen2.5-7b_s04c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 297, "cid": "ES2003d__qwen2.5-7b_s02c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "rubber grip suggested not decided"}
+{"idx": 301, "cid": "ES2003d__qwen2.5-7b_s06c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 324, "cid": "ES2003d__qwen2.5-7b_s05c1", "label": "UNSUPPORTED", "error_type": "other", "evidence_uids": [], "conf": "low", "note": "only one criterion scored 5"}
+{"idx": 347, "cid": "ES2003d__qwen2.5-7b_s02c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 349, "cid": "ES2003d__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 378, "cid": "ES2003d__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 401, "cid": "ES2003d__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 38, "cid": "ES2006b__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 60, "cid": "ES2006b__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": "PM only raised costs as a concern"}
+{"idx": 87, "cid": "ES2006b__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 97, "cid": "ES2006b__qwen2.5-7b_s02c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 106, "cid": "ES2006b__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "high", "note": "Marketing sent survey data"}
+{"idx": 110, "cid": "ES2006b__qwen2.5-7b_s02c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "voice recognition left open"}
+{"idx": 157, "cid": "ES2006b__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 162, "cid": "ES2006b__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 216, "cid": "ES2006b__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 275, "cid": "ES2006b__qwen2.5-7b_s02c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 343, "cid": "ES2006b__qwen2.5-7b_s04c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 350, "cid": "ES2006b__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 394, "cid": "ES2006b__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 24, "cid": "ES2006c__qwen2.5-7b_s01c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": "ID used whiteboard himself, not a proposal"}
+{"idx": 34, "cid": "ES2006c__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "vegetable theme and yellow/bright discussed"}
+{"idx": 68, "cid": "ES2006c__qwen2.5-7b_s03c3", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "ID said simple battery safer; PM agreed"}
+{"idx": 109, "cid": "ES2006c__qwen2.5-7b_s02c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": "ID rubbed out items, no assignment"}
+{"idx": 125, "cid": "ES2006c__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "group (UI/PM) chose rubber"}
+{"idx": 130, "cid": "ES2006c__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 155, "cid": "ES2006c__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 160, "cid": "ES2006c__qwen2.5-7b_s07c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 174, "cid": "ES2006c__qwen2.5-7b_s06c2", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "vague"}
+{"idx": 202, "cid": "ES2006c__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 203, "cid": "ES2006c__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "Marketing suggested flip, PM agreed"}
+{"idx": 230, "cid": "ES2006c__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "low", "note": "team consensus buttons rubber"}
+{"idx": 282, "cid": "ES2006c__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 307, "cid": "ES2006c__qwen2.5-7b_s03c2", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "low", "note": "group decided; LCD for channel selection unclear"}
+{"idx": 318, "cid": "ES2006c__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 321, "cid": "ES2006c__qwen2.5-7b_s06c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "vague"}
+{"idx": 330, "cid": "ES2006c__qwen2.5-7b_s06c1", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "vague"}
+{"idx": 360, "cid": "ES2006c__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 392, "cid": "ES2006c__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 4, "cid": "ES2010b__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 15, "cid": "ES2010b__qwen2.5-7b_s03c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "discussed, conditional on price"}
+{"idx": 45, "cid": "ES2010b__qwen2.5-7b_s09c1", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 55, "cid": "ES2010b__qwen2.5-7b_s07c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 85, "cid": "ES2010b__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 176, "cid": "ES2010b__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 181, "cid": "ES2010b__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 192, "cid": "ES2010b__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 196, "cid": "ES2010b__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 197, "cid": "ES2010b__qwen2.5-7b_s05c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 258, "cid": "ES2010b__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 273, "cid": "ES2010b__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "PM raised colour; Marketing said garish"}
+{"idx": 283, "cid": "ES2010b__qwen2.5-7b_s02c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 285, "cid": "ES2010b__qwen2.5-7b_s04c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 294, "cid": "ES2010b__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 334, "cid": "ES2010b__qwen2.5-7b_s09c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 348, "cid": "ES2010b__qwen2.5-7b_s08c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "instructions via coach"}
+{"idx": 358, "cid": "ES2010b__qwen2.5-7b_s08c1", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 359, "cid": "ES2010b__qwen2.5-7b_s02c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 367, "cid": "ES2010b__qwen2.5-7b_s02c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 373, "cid": "ES2010b__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 384, "cid": "ES2010b__qwen2.5-7b_s08c2", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 5, "cid": "ES2010c__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 21, "cid": "ES2010c__qwen2.5-7b_s08c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 57, "cid": "ES2010c__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 77, "cid": "ES2010c__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": "touch buttons not discussed"}
+{"idx": 102, "cid": "ES2010c__qwen2.5-7b_s10c0", "label": "UNSUPPORTED", "error_type": "entity", "evidence_uids": [], "conf": "med", "note": "logo placement on button/casing, not back"}
+{"idx": 114, "cid": "ES2010c__qwen2.5-7b_s07c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 141, "cid": "ES2010c__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 146, "cid": "ES2010c__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 151, "cid": "ES2010c__qwen2.5-7b_s08c1", "label": "UNSUPPORTED", "error_type": "entity", "evidence_uids": [], "conf": "med", "note": "scroll on the side, buttons on top"}
+{"idx": 159, "cid": "ES2010c__qwen2.5-7b_s05c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 166, "cid": "ES2010c__qwen2.5-7b_s11c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 220, "cid": "ES2010c__qwen2.5-7b_s08c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 245, "cid": "ES2010c__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "PM liked retro dial"}
+{"idx": 248, "cid": "ES2010c__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 249, "cid": "ES2010c__qwen2.5-7b_s07c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 251, "cid": "ES2010c__qwen2.5-7b_s05c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 272, "cid": "ES2010c__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 276, "cid": "ES2010c__qwen2.5-7b_s05c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 298, "cid": "ES2010c__qwen2.5-7b_s08c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 320, "cid": "ES2010c__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 6, "cid": "TS3010d__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 31, "cid": "TS3010d__qwen2.5-7b_s09c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "high", "note": "LCD kept"}
+{"idx": 32, "cid": "TS3010d__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 54, "cid": "TS3010d__qwen2.5-7b_s07c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 91, "cid": "TS3010d__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 93, "cid": "TS3010d__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 94, "cid": "TS3010d__qwen2.5-7b_s09c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 96, "cid": "TS3010d__qwen2.5-7b_s05c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 98, "cid": "TS3010d__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 142, "cid": "TS3010d__qwen2.5-7b_s07c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 144, "cid": "TS3010d__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 153, "cid": "TS3010d__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 164, "cid": "TS3010d__qwen2.5-7b_s06c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 171, "cid": "TS3010d__qwen2.5-7b_s08c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 190, "cid": "TS3010d__qwen2.5-7b_s06c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 199, "cid": "TS3010d__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 213, "cid": "TS3010d__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 226, "cid": "TS3010d__qwen2.5-7b_s09c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 234, "cid": "TS3010d__qwen2.5-7b_s07c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "high", "note": "LCD kept"}
+{"idx": 253, "cid": "TS3010d__qwen2.5-7b_s02c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 256, "cid": "TS3010d__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 296, "cid": "TS3010d__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 305, "cid": "TS3010d__qwen2.5-7b_s05c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 306, "cid": "TS3010d__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 313, "cid": "TS3010d__qwen2.5-7b_s03c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 315, "cid": "TS3010d__qwen2.5-7b_s05c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 369, "cid": "TS3010d__qwen2.5-7b_s07c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 371, "cid": "TS3010d__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 2, "cid": "ES2015b__qwen2.5-7b_s09c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 25, "cid": "ES2015b__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 53, "cid": "ES2015b__qwen2.5-7b_s02c2", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "high", "note": "Marketing presented voice recognition"}
+{"idx": 66, "cid": "ES2015b__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 107, "cid": "ES2015b__qwen2.5-7b_s04c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": "voice recognition written off"}
+{"idx": 148, "cid": "ES2015b__qwen2.5-7b_s08c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 158, "cid": "ES2015b__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 175, "cid": "ES2015b__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 188, "cid": "ES2015b__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 200, "cid": "ES2015b__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 254, "cid": "ES2015b__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 288, "cid": "ES2015b__qwen2.5-7b_s07c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 300, "cid": "ES2015b__qwen2.5-7b_s05c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 312, "cid": "ES2015b__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 314, "cid": "ES2015b__qwen2.5-7b_s07c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 338, "cid": "ES2015b__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 346, "cid": "ES2015b__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 16, "cid": "ES2015c__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 33, "cid": "ES2015c__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 84, "cid": "ES2015c__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "plastic coated in rubber"}
+{"idx": 92, "cid": "ES2015c__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 147, "cid": "ES2015c__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 154, "cid": "ES2015c__qwen2.5-7b_s02c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "low", "note": "ID said regular chip for lighting"}
+{"idx": 186, "cid": "ES2015c__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 206, "cid": "ES2015c__qwen2.5-7b_s00c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 207, "cid": "ES2015c__qwen2.5-7b_s04c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "low", "note": "Marketing mentioned animals as too specific"}
+{"idx": 235, "cid": "ES2015c__qwen2.5-7b_s03c2", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 278, "cid": "ES2015c__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 377, "cid": "ES2015c__qwen2.5-7b_s03c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 400, "cid": "ES2015c__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 8, "cid": "ES2006d__qwen2.5-7b_s03c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "UI prepares locator"}
+{"idx": 50, "cid": "ES2006d__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": "mute button forgotten"}
+{"idx": 51, "cid": "ES2006d__qwen2.5-7b_s08c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": "pink was Play-Doh joke"}
+{"idx": 72, "cid": "ES2006d__qwen2.5-7b_s04c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "beep instead of speaker"}
+{"idx": 101, "cid": "ES2006d__qwen2.5-7b_s02c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "7 max"}
+{"idx": 126, "cid": "ES2006d__qwen2.5-7b_s07c1", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "questionnaire sent by others"}
+{"idx": 131, "cid": "ES2006d__qwen2.5-7b_s04c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "joke not plan"}
+{"idx": 139, "cid": "ES2006d__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "prototype presented"}
+{"idx": 177, "cid": "ES2006d__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 194, "cid": "ES2006d__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 214, "cid": "ES2006d__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "beeping"}
+{"idx": 218, "cid": "ES2006d__qwen2.5-7b_s04c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": "too expensive"}
+{"idx": 224, "cid": "ES2006d__qwen2.5-7b_s05c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": "Marketing proposed buttons instead of scroll"}
+{"idx": 250, "cid": "ES2006d__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "vague but true"}
+{"idx": 257, "cid": "ES2006d__qwen2.5-7b_s07c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "PM to send back to mgmt re colour uncertainty"}
+{"idx": 267, "cid": "ES2006d__qwen2.5-7b_s03c1", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "vague"}
+{"idx": 270, "cid": "ES2006d__qwen2.5-7b_s05c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": "all agreed"}
+{"idx": 295, "cid": "ES2006d__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": "1-7 scale"}
+{"idx": 322, "cid": "ES2006d__qwen2.5-7b_s02c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "left-handed to investigate, not decided"}
+{"idx": 9, "cid": "ES2015d__qwen2.5-7b_s06c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "low number = good"}
+{"idx": 19, "cid": "ES2015d__qwen2.5-7b_s12c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "UI suggested metallic"}
+{"idx": 26, "cid": "ES2015d__qwen2.5-7b_s14c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 27, "cid": "ES2015d__qwen2.5-7b_s08c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 48, "cid": "ES2015d__qwen2.5-7b_s09c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "alarm discussed"}
+{"idx": 49, "cid": "ES2015d__qwen2.5-7b_s01c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 59, "cid": "ES2015d__qwen2.5-7b_s02c1", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "high", "note": "UI said plus first"}
+{"idx": 82, "cid": "ES2015d__qwen2.5-7b_s01c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 88, "cid": "ES2015d__qwen2.5-7b_s10c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 95, "cid": "ES2015d__qwen2.5-7b_s11c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 100, "cid": "ES2015d__qwen2.5-7b_s11c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 113, "cid": "ES2015d__qwen2.5-7b_s10c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 121, "cid": "ES2015d__qwen2.5-7b_s04c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 124, "cid": "ES2015d__qwen2.5-7b_s10c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 129, "cid": "ES2015d__qwen2.5-7b_s11c3", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 135, "cid": "ES2015d__qwen2.5-7b_s04c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 161, "cid": "ES2015d__qwen2.5-7b_s13c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 179, "cid": "ES2015d__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 180, "cid": "ES2015d__qwen2.5-7b_s04c1", "label": "UNSUPPORTED", "error_type": "entity", "evidence_uids": [], "conf": "med", "note": "rubber for comfort"}
+{"idx": 195, "cid": "ES2015d__qwen2.5-7b_s08c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 198, "cid": "ES2015d__qwen2.5-7b_s02c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "high", "note": "PM noticed, UI removed"}
+{"idx": 205, "cid": "ES2015d__qwen2.5-7b_s14c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 209, "cid": "ES2015d__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 210, "cid": "ES2015d__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 211, "cid": "ES2015d__qwen2.5-7b_s12c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 238, "cid": "ES2015d__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 252, "cid": "ES2015d__qwen2.5-7b_s07c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 280, "cid": "ES2015d__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 290, "cid": "ES2015d__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "ID not Marketing"}
+{"idx": 291, "cid": "ES2015d__qwen2.5-7b_s12c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 302, "cid": "ES2015d__qwen2.5-7b_s12c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 339, "cid": "ES2015d__qwen2.5-7b_s10c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 345, "cid": "ES2015d__qwen2.5-7b_s05c1", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "high", "note": "ID, and negative"}
+{"idx": 362, "cid": "ES2015d__qwen2.5-7b_s09c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 365, "cid": "ES2015d__qwen2.5-7b_s03c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 380, "cid": "ES2015d__qwen2.5-7b_s11c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 391, "cid": "ES2015d__qwen2.5-7b_s09c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 0, "cid": "TS3010b__qwen2.5-7b_s05c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 7, "cid": "TS3010b__qwen2.5-7b_s05c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "preference, deferred"}
+{"idx": 14, "cid": "TS3010b__qwen2.5-7b_s01c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "preference only"}
+{"idx": 20, "cid": "TS3010b__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "attribution_swap", "evidence_uids": [], "conf": "med", "note": "ID proposed, PM questioned"}
+{"idx": 30, "cid": "TS3010b__qwen2.5-7b_s00c3", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 83, "cid": "TS3010b__qwen2.5-7b_s01c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "proposed menu button"}
+{"idx": 140, "cid": "TS3010b__qwen2.5-7b_s04c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 163, "cid": "TS3010b__qwen2.5-7b_s04c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 178, "cid": "TS3010b__qwen2.5-7b_s00c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 208, "cid": "TS3010b__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "PM rejected covers"}
+{"idx": 215, "cid": "TS3010b__qwen2.5-7b_s06c1", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": "next phase"}
+{"idx": 221, "cid": "TS3010b__qwen2.5-7b_s00c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 244, "cid": "TS3010b__qwen2.5-7b_s02c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 246, "cid": "TS3010b__qwen2.5-7b_s01c3", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "high", "note": "proposed, rejected"}
+{"idx": 277, "cid": "TS3010b__qwen2.5-7b_s02c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 286, "cid": "TS3010b__qwen2.5-7b_s06c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 293, "cid": "TS3010b__qwen2.5-7b_s03c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 299, "cid": "TS3010b__qwen2.5-7b_s00c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 317, "cid": "TS3010b__qwen2.5-7b_s02c2", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 333, "cid": "TS3010b__qwen2.5-7b_s06c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 337, "cid": "TS3010b__qwen2.5-7b_s01c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "high", "note": ""}
+{"idx": 370, "cid": "TS3010b__qwen2.5-7b_s05c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "deferred"}
+{"idx": 329, "cid": "ES2010c__qwen2.5-7b_s09c0", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "gunmetal suggested, yellow liked"}
+{"idx": 340, "cid": "ES2010c__qwen2.5-7b_s01c2", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 352, "cid": "ES2010c__qwen2.5-7b_s03c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 353, "cid": "ES2010c__qwen2.5-7b_s02c0", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 356, "cid": "ES2010c__qwen2.5-7b_s03c2", "label": "UNSUPPORTED", "error_type": "fabrication", "evidence_uids": [], "conf": "med", "note": ""}
+{"idx": 381, "cid": "ES2010c__qwen2.5-7b_s06c0", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "high", "note": "deferred to next meeting"}
+{"idx": 361, "cid": "ES2015b__qwen2.5-7b_s01c2", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 368, "cid": "ES2015b__qwen2.5-7b_s03c0", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 382, "cid": "ES2015b__qwen2.5-7b_s06c1", "label": "SUPPORTED", "error_type": "none", "evidence_uids": [], "conf": "low", "note": ""}
+{"idx": 383, "cid": "ES2015b__qwen2.5-7b_s03c1", "label": "UNSUPPORTED", "error_type": "status_flip", "evidence_uids": [], "conf": "med", "note": "voice recognition dropped"}
+{"idx": 393, "cid": "ES2015b__qwen2.5-7b_s06c2", "label": "UNVERIFIABLE", "error_type": "none", "evidence_uids": [], "conf": "low", "note": "alarm yes, infrared unclear"}
