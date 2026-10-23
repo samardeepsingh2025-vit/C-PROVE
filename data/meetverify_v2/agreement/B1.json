@@ -1,0 +1,302 @@
+{
+  "S010.1": {
+    "label": "SUPPORTED",
+    "evidence": "13, 16, 301-302",
+    "atomicity": "atomic",
+    "note": "The designer proposed using a battery rather than solar power. The closing discussion supports keeping the battery option."
+  },
+  "S010.2": {
+    "label": "CONTRADICTED",
+    "evidence": "301",
+    "atomicity": "atomic",
+    "note": "The phrase about “two batteries” is spoken by the Industrial Designer, not the Project Manager."
+  },
+  "S007.1": {
+    "label": "SUPPORTED",
+    "evidence": "303-304, 349-350",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S007.2": {
+    "label": "SUPPORTED",
+    "evidence": "47, 53",
+    "atomicity": "atomic",
+    "note": "Marketing points out that the mute button is missing."
+  },
+  "S007.3": {
+    "label": "CONTRADICTED",
+    "evidence": "341",
+    "atomicity": "atomic",
+    "note": "The Project Manager, not the person named in the claim, says they will send it back to management."
+  },
+  "S007.4": {
+    "label": "CONTRADICTED",
+    "evidence": "81-83",
+    "atomicity": "atomic",
+    "note": "This is a joke between the Project Manager and Marketing, not an actual plan."
+  },
+  "S007.5": {
+    "label": "CONTRADICTED",
+    "evidence": "115-118, 123, 128",
+    "atomicity": "atomic",
+    "note": "The mirror model is only raised as an idea. The Project Manager suggests flagging it to management; no decision is made."
+  },
+  "S007.6": {
+    "label": "SUPPORTED",
+    "evidence": "6, 84-86",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S004.1": {
+    "label": "INSUFFICIENT",
+    "evidence": "190-192, 247-248",
+    "atomicity": "compound",
+    "note": "The cost concern is supported, but the transcript does not say that simplifying the design was a reason."
+  },
+  "S004.2": {
+    "label": "SUPPORTED",
+    "evidence": "1-31",
+    "atomicity": "atomic",
+    "note": "A prototype is presented and described in the meeting."
+  },
+  "S004.3": {
+    "label": "INSUFFICIENT",
+    "evidence": "1, 35-36, 166",
+    "atomicity": "atomic",
+    "note": "The meeting covers several subjects, including the prototype, evaluation, finances and process. The evidence does not establish that finance was the main topic."
+  },
+  "S004.4": {
+    "label": "INSUFFICIENT",
+    "evidence": "",
+    "atomicity": "atomic",
+    "note": "The transcript does not record this as an action item."
+  },
+  "S004.5": {
+    "label": "INSUFFICIENT",
+    "evidence": "",
+    "atomicity": "atomic",
+    "note": "The transcript does not record this as an action item."
+  },
+  "S004.6": {
+    "label": "INSUFFICIENT",
+    "evidence": "220-222, 246-248",
+    "atomicity": "compound",
+    "note": "Push-buttons and a standard colour are agreed on, but there is no recorded task for the Industrial Designer to complete by the next meeting."
+  },
+  "S004.7": {
+    "label": "CONTRADICTED",
+    "evidence": "209, 232-235, 247-248",
+    "atomicity": "atomic",
+    "note": "The LCD is discussed and retained as an option; the joystick and special colour are the features that are removed."
+  },
+  "S006.1": {
+    "label": "SUPPORTED",
+    "evidence": "20, 50-60",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S006.2": {
+    "label": "SUPPORTED",
+    "evidence": "104-106",
+    "atomicity": "atomic",
+    "note": "The idea is presented, rather than debated at length."
+  },
+  "S006.3": {
+    "label": "SUPPORTED",
+    "evidence": "102-106",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S006.4": {
+    "label": "INSUFFICIENT",
+    "evidence": "117-129, 135",
+    "atomicity": "atomic",
+    "note": "The group discusses keeping the design simple and user-friendly, but no change to the plan is agreed at this point."
+  },
+  "S006.5": {
+    "label": "INSUFFICIENT",
+    "evidence": "136-137, 140",
+    "atomicity": "atomic",
+    "note": "The designer says the feature should fit within the design, but the recorded task is to work on the design generally."
+  },
+  "S008.1": {
+    "label": "SUPPORTED",
+    "evidence": "5, 49-51",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S008.2": {
+    "label": "SUPPORTED",
+    "evidence": "46-81",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S009.1": {
+    "label": "SUPPORTED",
+    "evidence": "77-83",
+    "atomicity": "atomic",
+    "note": "Marketing presents the data and offers to send more information by email."
+  },
+  "S009.2": {
+    "label": "INSUFFICIENT",
+    "evidence": "105, 260-262",
+    "atomicity": "atomic",
+    "note": "The Project Manager refers Marketing to the instruction manuals; the cited passage does not assign research into LCD screens."
+  },
+  "S005.1": {
+    "label": "SUPPORTED",
+    "evidence": "45-120",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S005.2": {
+    "label": "CONTRADICTED",
+    "evidence": "59, 72, 75, 95, 110-112",
+    "atomicity": "atomic",
+    "note": "The score of 2.5 refers only to the fashionable-design measure. The meeting does not give an overall average."
+  },
+  "S005.3": {
+    "label": "SUPPORTED",
+    "evidence": "175-219",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S005.4": {
+    "label": "INSUFFICIENT",
+    "evidence": "",
+    "atomicity": "atomic",
+    "note": "No action items are assigned in the cited meeting."
+  },
+  "S005.5": {
+    "label": "CONTRADICTED",
+    "evidence": "238-245",
+    "atomicity": "atomic",
+    "note": "The commercial is mentioned jokingly; the group does not make a decision about it."
+  },
+  "S005.6": {
+    "label": "INSUFFICIENT",
+    "evidence": "246",
+    "atomicity": "atomic",
+    "note": "The Project Manager only refers to the party in passing. Nobody is assigned to organise it."
+  },
+  "S005.7": {
+    "label": "INSUFFICIENT",
+    "evidence": "238-243",
+    "atomicity": "fragment",
+    "note": "This fragment depends on the preceding claim about the commercial and does not stand as a complete claim on its own."
+  },
+  "S003.1": {
+    "label": "SUPPORTED",
+    "evidence": "22-25, 79-82",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S001.1": {
+    "label": "SUPPORTED",
+    "evidence": "13-16",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S001.2": {
+    "label": "SUPPORTED",
+    "evidence": "47, 53-60, 153",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S001.3": {
+    "label": "SUPPORTED",
+    "evidence": "163-166, 260-262",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S001.4": {
+    "label": "SUPPORTED",
+    "evidence": "268-284",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S001.5": {
+    "label": "SUPPORTED",
+    "evidence": "48-49, 193-194",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S001.6": {
+    "label": "CONTRADICTED",
+    "evidence": "116-120, 180",
+    "atomicity": "atomic",
+    "note": "Marketing raises voice recognition as an idea. The claim attributes it incorrectly, and the option is later dropped."
+  },
+  "S001.7": {
+    "label": "CONTRADICTED",
+    "evidence": "119, 180",
+    "atomicity": "atomic",
+    "note": "The Project Manager says voice recognition may be worth investigating if the target is young adults. The group later rules it out."
+  },
+  "S001.8": {
+    "label": "CONTRADICTED",
+    "evidence": "117-118, 144-148, 180",
+    "atomicity": "atomic",
+    "note": "The target age group is not firmly settled. The discussion leans toward older customers or people in their early twenties, and voice recognition is dropped."
+  },
+  "S001.9": {
+    "label": "INSUFFICIENT",
+    "evidence": "75-77, 250-254",
+    "atomicity": "atomic",
+    "note": "Durability is discussed, but the Industrial Designer is not assigned a specific task about it."
+  },
+  "S001.10": {
+    "label": "SUPPORTED",
+    "evidence": "198-202, 211-213",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S001.11": {
+    "label": "SUPPORTED",
+    "evidence": "47, 51",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S002.1": {
+    "label": "SUPPORTED",
+    "evidence": "61-103, 221-260",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S002.2": {
+    "label": "SUPPORTED",
+    "evidence": "258-260, 327-331",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S002.3": {
+    "label": "CONTRADICTED",
+    "evidence": "198, 300, 304, 326",
+    "atomicity": "atomic",
+    "note": "The Industrial Designer argues for a battery rather than kinetic power; Marketing calls kinetic power a gimmick. The Project Manager summarises the discussion, so attribution of the final position is not entirely clear."
+  },
+  "S002.4": {
+    "label": "SUPPORTED",
+    "evidence": "4",
+    "atomicity": "atomic",
+    "note": "The transcript supports this claim."
+  },
+  "S002.5": {
+    "label": "INSUFFICIENT",
+    "evidence": "336",
+    "atomicity": "atomic",
+    "note": "The transcript does not record this as an action item."
+  },
+  "S002.6": {
+    "label": "SUPPORTED",
+    "evidence": "336",
+    "atomicity": "fragment",
+    "note": "The Industrial Designer is asked to work on the look and feel before the next meeting. The phrase “action items” is broader than the evidence."
+  },
+  "S002.7": {
+    "label": "INSUFFICIENT",
+    "evidence": "340-342",
+    "atomicity": "atomic",
+    "note": "The speaker makes a joke about being hated; the exchange does not show that anyone addresses stress."
+  }
+}

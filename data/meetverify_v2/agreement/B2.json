@@ -1,0 +1,664 @@
+{
+  "summaries": [
+    {
+      "sid": "S010",
+      "meeting_id": "IS1006c",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 2,
+      "human_check": "yes",
+      "missed": "Omitted core conceptual decisions: using push-buttons with an informational (non-touch) LCD display to save budget for speaker-dependent speech recognition and location sensor; exploring two prototype options in modelling clay (spongy rubber fruity design vs. single-curved titanium smelling like fruit); optional paid colour/chameleon paint upgrades; and next-meeting tasks (Industrial Designer on look-and-feel design, User Interface on interface design, both designers on the modelling clay prototype, and Marketing on product evaluation).",
+      "claims": [
+        {
+          "cid": "IS1006c__qwen2.5-7b_s01c0",
+          "text": "The team decided to use a simple battery.",
+          "sent_idx": null,
+          "public_id": "S010.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "13, 16, 49-51, 301-304",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Industrial Designer proposes using a simple battery instead of solar cells (13, 16, 49-51), and the team confirms sticking with two simple batteries at the end of the meeting (301-304)."
+        },
+        {
+          "cid": "IS1006c__qwen2.5-7b_s05c1",
+          "text": "The Project Manager decided to use two batteries.",
+          "sent_idx": null,
+          "public_id": "S010.2",
+          "label": "CONTRADICTED",
+          "evidence_lines": "301-303",
+          "error_type": "speaker_attribution",
+          "atomicity": "atomic",
+          "notes": "The Industrial Designer stated they would stick with two batteries (301), and Marketing and the Project Manager merely agreed (302-303)."
+        }
+      ]
+    },
+    {
+      "sid": "S007",
+      "meeting_id": "ES2006d",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 2,
+      "human_check": "yes",
+      "missed": "Omitted the prototype presentation details (banana-shaped yellow flip-open rubber remote with basic channel/power buttons outside, LCD and spinning wheel inside, voice recognition, and red stick-on TV locator), the evaluation average score (~6.38 / 6.5 out of 7), the specific Excel budget cuts (removing the sample sensor/speaker and replacing the side volume scroll-wheel with two push-buttons to finish 1 Euro under the 12.50 Euro limit), and the final project process evaluation.",
+      "claims": [
+        {
+          "cid": "ES2006d__qwen2.5-7b_s04c1",
+          "text": "The plan was later changed to using a simpler beeping device for the speaker.",
+          "sent_idx": null,
+          "public_id": "S007.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "247, 293-306, 347-351",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "To cut costs under the 12.50 Euro cap, the team dropped the expensive sample sensor/speaker (293-298) and replaced it with a simple beeping device for the locator (303-306, 349-351)."
+        },
+        {
+          "cid": "ES2006d__qwen2.5-7b_s01c1",
+          "text": "Marketing suggested adding a mute button.",
+          "sent_idx": null,
+          "public_id": "S007.2",
+          "label": "SUPPORTED",
+          "evidence_lines": "47, 52-60, 318-319",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Marketing pointed out that they forgot a mute button (47), proposed holding down the scroll wheel to mute (53, 57-60), and later agreed with User Interface's suggestion to add a mute button on top (318-319)."
+        },
+        {
+          "cid": "ES2006d__qwen2.5-7b_s07c0",
+          "text": "Marketing is to send back to management with a note about color uncertainty.",
+          "sent_idx": null,
+          "public_id": "S007.3",
+          "label": "CONTRADICTED",
+          "evidence_lines": "339-341",
+          "error_type": "speaker_attribution",
+          "atomicity": "atomic",
+          "notes": "The Project Manager stated she would send the cost sheet back to management with a note about whether special colour costs extra (341), not Marketing."
+        },
+        {
+          "cid": "ES2006d__qwen2.5-7b_s04c0",
+          "text": "The team planned to send manufacturing to a poor country to cut costs.",
+          "sent_idx": null,
+          "public_id": "S007.4",
+          "label": "CONTRADICTED",
+          "evidence_lines": "79-83, 288-336",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "The remark about sending manufacturing to a poor country like Wales was a joke (81-83); actual cost reductions were made by removing the sample sensor/speaker and side scroll wheel in the budget sheet (288-336)."
+        },
+        {
+          "cid": "ES2006d__qwen2.5-7b_s02c1",
+          "text": "The team decided to consider a left-handed version.",
+          "sent_idx": null,
+          "public_id": "S007.5",
+          "label": "CONTRADICTED",
+          "evidence_lines": "112-128, 168",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "User Interface suggested a mirror-image version for left-handed users (115), but Project Manager, Industrial Designer, and Marketing dismissed making a separate version (117-123) and only noted 'investigate' / flag for management regarding left-handed operation (125-128, 168)."
+        },
+        {
+          "cid": "ES2006d__qwen2.5-7b_s03c1",
+          "text": "Marketing is to evaluate the new design.",
+          "sent_idx": null,
+          "public_id": "S007.6",
+          "label": "CONTRADICTED",
+          "evidence_lines": "2, 6, 84-233, 424-427",
+          "error_type": "time_shift",
+          "atomicity": "atomic",
+          "notes": "This was the final meeting (2); Marketing presented the evaluation criteria and the entire team completed the evaluation together during the meeting (84-233, 424-427)."
+        }
+      ]
+    },
+    {
+      "sid": "S004",
+      "meeting_id": "TS3010d",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 1,
+      "human_check": "yes",
+      "missed": "Omitted that this was the final meeting (no next meeting); the prototype details presented (yellow pistol-shaped double-curved remote with rubber sides, hard plastic body, blue buttons, fold-in cover, joystick, LCD, RR logo); the 9-item product evaluation averaging 2.33 (rounded to 2 on a 1=true to 7=false scale); the actual budget adjustments (keeping the LCD and advanced chip, replacing the joystick with push-buttons, and dropping special colours for the case and buttons to reach 12.50 Euros); and the project process evaluation.",
+      "claims": [
+        {
+          "cid": "TS3010d__qwen2.5-7b_s09c2",
+          "text": "The adjustments were made to reduce costs and simplify the design.",
+          "sent_idx": null,
+          "public_id": "S004.1",
+          "label": "CONTRADICTED",
+          "evidence_lines": "190-265",
+          "error_type": "status_flip",
+          "atomicity": "compound",
+          "notes": "The adjustments (replacing the joystick with push-buttons and dropping special colours) were made solely to reduce production costs from 15 Euros to the 12.50 Euro limit (190-248); simplifying the design was never stated as a goal."
+        },
+        {
+          "cid": "TS3010d__qwen2.5-7b_s05c3",
+          "text": "The team discussed the design of the remote control.",
+          "sent_idx": null,
+          "public_id": "S004.2",
+          "label": "SUPPORTED",
+          "evidence_lines": "1-31, 168-265",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team discussed the prototype design at the start of the meeting (1-31) and revised its components during the budget review (168-265)."
+        },
+        {
+          "cid": "TS3010d__qwen2.5-7b_s00c2",
+          "text": "The main topics of the meeting were the finance details.",
+          "sent_idx": null,
+          "public_id": "S004.3",
+          "label": "SUPPORTED",
+          "evidence_lines": "31, 35-36, 166-266",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Finance details (calculating and adjusting component costs to meet the 12.50 Euro cap) were one of the main agenda topics of the meeting (31, 166-266), alongside prototype presentation, product evaluation, and project evaluation."
+        },
+        {
+          "cid": "TS3010d__qwen2.5-7b_s03c1",
+          "text": "Marketing is to prepare the evaluation document by the next meeting.",
+          "sent_idx": null,
+          "public_id": "S004.4",
+          "label": "CONTRADICTED",
+          "evidence_lines": "1, 37-42, 150-161, 285-290",
+          "error_type": "time_shift",
+          "atomicity": "atomic",
+          "notes": "This was the final meeting (1, 285-290) and Marketing already prepared and led the evaluation during this meeting (37-42, 150-161)."
+        },
+        {
+          "cid": "TS3010d__qwen2.5-7b_s03c0",
+          "text": "User Interface is to finalize the prototype design by the next meeting.",
+          "sent_idx": null,
+          "public_id": "S004.5",
+          "label": "CONTRADICTED",
+          "evidence_lines": "1-31, 246-266, 285-290",
+          "error_type": "time_shift",
+          "atomicity": "atomic",
+          "notes": "This was the final meeting with no next meeting (1, 285-290); User Interface presented the completed prototype at the beginning of the meeting (1-31) and the team finalized the design adjustments together during the finance review (246-266)."
+        },
+        {
+          "cid": "TS3010d__qwen2.5-7b_s08c0",
+          "text": "The Industrial Designer is to finalize the design with push-buttons and normal colour by the next meeting.",
+          "sent_idx": null,
+          "public_id": "S004.6",
+          "label": "CONTRADICTED",
+          "evidence_lines": "1, 218-222, 246-266, 285-290",
+          "error_type": "time_shift",
+          "atomicity": "compound",
+          "notes": "This was the final meeting (1, 285-290); the Project Manager updated the component spreadsheet with push-buttons and normal colour during the meeting (246-266), and no task was assigned to the Industrial Designer for a next meeting."
+        },
+        {
+          "cid": "TS3010d__qwen2.5-7b_s09c0",
+          "text": "The plan was adjusted to remove the L_C_D_ display.",
+          "sent_idx": null,
+          "public_id": "S004.7",
+          "label": "CONTRADICTED",
+          "evidence_lines": "209, 232-248, 260-265",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "The team briefly considered what would happen if they lost the LCD (232-237), but decided to keep the LCD display (209, 238-248) and instead removed the joystick and special colours to meet the 12.50 Euro budget."
+        }
+      ]
+    },
+    {
+      "sid": "S006",
+      "meeting_id": "ES2006a",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 2,
+      "human_check": "yes",
+      "missed": "Omitted specific financial targets (25 Euro selling price, 50 million Euro profit target, 12.50 Euro max production cost, international market), the three-stage project plan (functional, conceptual, and detailed design), the company motto ('we put the fashion in electronics'), preliminary ideas (menu-based interface with fewer buttons, good battery life), and the actual next-meeting tasks (ID: working design; UI: technical functions design; Marketing: user requirements specification).",
+      "claims": [
+        {
+          "cid": "ES2006a__qwen2.5-7b_s04c1",
+          "text": "User Interface is to draw a dog and describe its characteristics.",
+          "sent_idx": null,
+          "public_id": "S006.1",
+          "label": "CONTRADICTED",
+          "evidence_lines": "19-20, 48-65, 139-143",
+          "error_type": "time_shift",
+          "atomicity": "compound",
+          "notes": "Drawing a favourite animal on the whiteboard was an in-meeting icebreaker already completed by User Interface during the meeting (19-20, 48-65), not a future action item; UI's assigned task for the next meeting is the technical functions design (141)."
+        },
+        {
+          "cid": "ES2006a__qwen2.5-7b_s00c2",
+          "text": "The team discussed profit targets.",
+          "sent_idx": null,
+          "public_id": "S006.2",
+          "label": "SUPPORTED",
+          "evidence_lines": "102-107",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The Project Manager presented the 50 million Euro profit target, 25 Euro selling price, and 12.50 Euro maximum production cost (102-107)."
+        },
+        {
+          "cid": "ES2006a__qwen2.5-7b_s05c0",
+          "text": "The Project Manager is to present the budget and profit targets.",
+          "sent_idx": null,
+          "public_id": "S006.3",
+          "label": "CONTRADICTED",
+          "evidence_lines": "102-107, 139-143",
+          "error_type": "time_shift",
+          "atomicity": "compound",
+          "notes": "The Project Manager already presented the budget and profit targets during this meeting (102-107) rather than taking it as a future action item."
+        },
+        {
+          "cid": "ES2006a__qwen2.5-7b_s08c0",
+          "text": "The plan was adjusted to prioritize a simpler, more user-friendly design.",
+          "sent_idx": null,
+          "public_id": "S006.4",
+          "label": "CONTRADICTED",
+          "evidence_lines": "10, 107-138",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "No plan was adjusted; creating a user-friendly, intuitive remote was part of the initial project brief from the beginning (10), and the team only shared preliminary ideas during brainstorming (107-138)."
+        },
+        {
+          "cid": "ES2006a__qwen2.5-7b_s03c1",
+          "text": "The Industrial Designer was tasked with designing a product that fits the usual stereotype.",
+          "sent_idx": null,
+          "public_id": "S006.5",
+          "label": "CONTRADICTED",
+          "evidence_lines": "135-141",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "User Interface remarked that the design shouldn't stray too far from usual remotes to avoid a steep learning curve, and Industrial Designer agreed in passing (135-137); ID's actual assigned task was the working design (140)."
+        }
+      ]
+    },
+    {
+      "sid": "S008",
+      "meeting_id": "ES2010a",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 3,
+      "human_check": "yes",
+      "missed": "Omitted financial parameters (25 Euro selling price, 50 million Euro profit target, 12.50 Euro max production cost, international market in the States, Europe, and Asia), specific brainstorming ideas (multifunctional compatibility for TV/DVD/TiVo/VHS/sound system, good instruction booklet, ergonomic hand-curved shape, flashy lights yet simple enough for older users, AA/AAA/lithium battery options), and assigned tasks for the next meeting (ID: working design; UI: technical functions design; Marketing: user requirements specification).",
+      "claims": [
+        {
+          "cid": "ES2010a__qwen2.5-7b_s01c2",
+          "text": "The remote will be compatible with TV.",
+          "sent_idx": null,
+          "public_id": "S008.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "5, 49-58",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Operating the TV is stated as the core goal (5), and the team discussed making the remote compatible with TV and other home entertainment devices (49-58)."
+        },
+        {
+          "cid": "ES2010a__qwen2.5-7b_s00c1",
+          "text": "The meeting covered brainstorming for a new remote control product.",
+          "sent_idx": null,
+          "public_id": "S008.2",
+          "label": "SUPPORTED",
+          "evidence_lines": "4-5, 46-81",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The kick-off meeting included a brainstorming session on experiences with remotes and initial ideas for the new remote control (46-81)."
+        }
+      ]
+    },
+    {
+      "sid": "S009",
+      "meeting_id": "ES2004b",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 2,
+      "human_check": "yes",
+      "missed": "Omitted new management requirements (TV-only remote, no teletext, incorporating corporate image/logo), key market research statistics (75% find remotes ugly, 80% would spend more for a fancy remote, 75% zap channels a lot, 50% use only 10% of buttons, 50% lose remotes, 34% find them hard to learn, >25% report RSI, under-35s favour LCD and speech recognition), and design proposals discussed (5m infrared range, rechargeable battery with docking station and locator beeper button on TV/dock, curved or seashell flip-top shape with changeable fascias, touch screen vs. rubber buttons, VideoPlus code support, and user-friendly instruction manual).",
+      "claims": [
+        {
+          "cid": "ES2004b__qwen2.5-7b_s02c0",
+          "text": "Marketing will provide market research data.",
+          "sent_idx": null,
+          "public_id": "S009.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "11, 33, 77-84, 115, 253",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Marketing presented initial usability lab findings during the meeting (77-83), offered to email extra market research tables/details to the team (83-84), and noted that further market research will be needed on international/age preferences and buttons (115, 253)."
+        },
+        {
+          "cid": "ES2004b__qwen2.5-7b_s03c2",
+          "text": "Marketing will conduct further research on LCD display features.",
+          "sent_idx": null,
+          "public_id": "S009.2",
+          "label": "INSUFFICIENT",
+          "evidence_lines": "82, 105, 115, 242, 253, 260-262",
+          "error_type": "fabrication",
+          "atomicity": "atomic",
+          "notes": "Marketing shared existing survey numbers on LCD preferences (82, 105) and mentioned an LCD reminder for VideoPlus (242), but never proposed or agreed to conduct further research on LCD display features (when asking what to look into next in 260, PM suggested instruction manuals in 261)."
+        }
+      ]
+    },
+    {
+      "sid": "S005",
+      "meeting_id": "ES2010d",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 2,
+      "human_check": "yes",
+      "missed": "Omitted the prototype presentation details (gunmetal grey single-curved plastic base, replaceable red latex cover, pale blue concave thumb-shaped buttons that light up yellow when any button is pressed, side up/down channel and volume buttons, yellow RR logo), the Excel cost calculation (1 lithium battery, 1 advanced chip with voice/phrase sensor, 1 single-curved plastic case in special colour, 3 push-button interfaces, special colour/form/material button supplements totaling 11.20 Euros under the 12.50 Euro limit), and specific process feedback (creativity stifled by TV-only restriction, non-working whiteboard, lack of internet, positive view of digital pens and wireless laptops).",
+      "claims": [
+        {
+          "cid": "ES2010d__qwen2.5-7b_s01c1",
+          "text": "The team scored the evaluation criteria.",
+          "sent_idx": null,
+          "public_id": "S005.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "45-120",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team scored each evaluation criterion on a 7-point scale (45-120)."
+        },
+        {
+          "cid": "ES2010d__qwen2.5-7b_s01c2",
+          "text": "The average score was 2.5.",
+          "sent_idx": null,
+          "public_id": "S005.2",
+          "label": "CONTRADICTED",
+          "evidence_lines": "54-59, 72-75, 90-95, 110-112, 116",
+          "error_type": "number/entity",
+          "atomicity": "atomic",
+          "notes": "2.5 was only the average score for the 'fashionable' criterion (75); the five criteria were scored 2 (easy to use), 2 or 2.5 (fashionable), 2 (feels good), 3.5 (technologically innovative), and 2 (squishy/fruity/trendy), and no overall average of 2.5 was computed."
+        },
+        {
+          "cid": "ES2010d__qwen2.5-7b_s04c0",
+          "text": "The team reviewed the project process.",
+          "sent_idx": null,
+          "public_id": "S005.3",
+          "label": "SUPPORTED",
+          "evidence_lines": "176-247",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team reviewed and discussed their satisfaction with the project process, creativity, teamwork, tools/means, and new ideas (176-247)."
+        },
+        {
+          "cid": "ES2010d__qwen2.5-7b_s03c1",
+          "text": "Action items were assigned to finalize the evaluation criteria.",
+          "sent_idx": null,
+          "public_id": "S005.4",
+          "label": "CONTRADICTED",
+          "evidence_lines": "4, 32-126, 247",
+          "error_type": "fabrication",
+          "atomicity": "atomic",
+          "notes": "This was the final meeting (4), the evaluation criteria were already scored and completed during the meeting (32-126, 247), and no action items were assigned to finalize them."
+        },
+        {
+          "cid": "ES2010d__qwen2.5-7b_s04c1",
+          "text": "The team decided to focus on creating a commercial.",
+          "sent_idx": null,
+          "public_id": "S005.5",
+          "label": "CONTRADICTED",
+          "evidence_lines": "235-247",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "The comments about making an Adam and Eve fig-leaf commercial were lighthearted jokes at the end of the meeting (239-245), not a real decision."
+        },
+        {
+          "cid": "ES2010d__qwen2.5-7b_s05c0",
+          "text": "The Project Manager is to organize a celebratory party immediately after the meeting.",
+          "sent_idx": null,
+          "public_id": "S005.6",
+          "label": "CONTRADICTED",
+          "evidence_lines": "247-249",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "The Project Manager merely joked while reading the closing slide ('and then we're going to have a big giant party, apparently, according to this', 247); she was not tasked with organizing a party."
+        },
+        {
+          "cid": "ES2010d__qwen2.5-7b_s04c2",
+          "text": "The goal is to enhance product appeal.",
+          "sent_idx": null,
+          "public_id": "S005.7",
+          "label": "CONTRADICTED",
+          "evidence_lines": "235-246",
+          "error_type": "dependency",
+          "atomicity": "fragment",
+          "notes": "Depends on the false claim in S005.5 about deciding to create a commercial to make the TV-only remote desirable (235-246), and 'The goal' is a fragment lacking its referent."
+        }
+      ]
+    },
+    {
+      "sid": "S003",
+      "meeting_id": "ES2013d",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 2,
+      "human_check": "yes",
+      "missed": "Only captured one claim and missed almost the entire meeting: review of previous minutes (11-14); presentation of the two Play-Doh prototypes (blob vs. banana shape, yellow with black compass-layout push-buttons, rear index-finger power switch, infrared at tip/stalk, hard plastic with rubber supplement, kinetic energy); interactive evaluation across 9 criteria averaging 1.88 (17/9 on a 1=true to 7=false scale, 66-175, 264); the Excel cost sheet calculation of 9.20 out of 12.50 (1 kinetic energy, 1 simple chip-on-print, 1 single-curved plastic case with rubber and special colour supplements, 1 push-button interface with special colour black plastic buttons, 182-235); and the project process evaluation praising Play-Doh prototyping and teamwork (235-273).",
+      "claims": [
+        {
+          "cid": "ES2013d__qwen2.5-7b_s02c0",
+          "text": "The group decided to opt for a minimalistic design.",
+          "sent_idx": null,
+          "public_id": "S003.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "23-26, 52-54, 81-82, 128-135",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team presented and approved a minimalist, simple design with only four compass-point push-buttons on the front and an on/off switch on the back (23-26, 52-54, 81-82, 128-135)."
+        }
+      ]
+    },
+    {
+      "sid": "S001",
+      "meeting_id": "ES2015b",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 3,
+      "human_check": "yes",
+      "missed": "Omitted the decisions to reject LCD screens and teletext (149, 153, 175-192); the decision to use self-timed (10-15 second) light-up soft rubber buttons shaped like numbers (plus light-up RR logo) rather than glow-in-the-dark material (221-264); the decision to defer shape-memory alloy recycling until financial implications are investigated (19-21, 290-295); ID's action item to research the power supply and infrared transmitter for the stick-on TV alarm button (208-218); and key market research stats (75% find remotes ugly, 80% would spend more for a fancy remote, 75% zap channels, 50% use 10% of buttons, channel button used 168 times/hour).",
+      "claims": [
+        {
+          "cid": "ES2015b__qwen2.5-7b_s02c1",
+          "text": "The Industrial Designer proposed using shape-memory alloys.",
+          "sent_idx": null,
+          "public_id": "S001.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "13-16, 20",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The Industrial Designer (Poppy) proposed using shape-memory alloy screws/fasteners that expand when heated at the end of the product's life so components spring apart for recycling (13-16, 20)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s01c0",
+          "text": "The group agreed on a single function remote control design.",
+          "sent_idx": null,
+          "public_id": "S001.2",
+          "label": "SUPPORTED",
+          "evidence_lines": "42-60, 153",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "User Interface recommended a single-function TV-only remote (42-49), the whole team agreed (53-60), and management also specified a TV-only remote (153)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s06c0",
+          "text": "The team decided to incorporate the company logo on the remote controls.",
+          "sent_idx": null,
+          "public_id": "S001.3",
+          "label": "SUPPORTED",
+          "evidence_lines": "163-173, 260-264",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Project Manager relayed management's requirement to incorporate the company logo (RR) and colour on the remote, and the team agreed to include it and have it light up with the buttons (163-173, 260-264)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s07c0",
+          "text": "The team agreed to incorporate interchangeable faceplates.",
+          "sent_idx": null,
+          "public_id": "S001.4",
+          "label": "SUPPORTED",
+          "evidence_lines": "268-286",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Marketing proposed interchangeable faceplates (starting with three), and User Interface, Industrial Designer, and Project Manager all agreed to incorporate them (268-286)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s01c1",
+          "text": "The design is to simplify the product.",
+          "sent_idx": null,
+          "public_id": "S001.5",
+          "label": "SUPPORTED",
+          "evidence_lines": "46-48, 53-60, 153, 193-195",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team opted for a single-function TV remote with minimal buttons to keep the design simple and user-friendly (46-48, 53-60, 193-195)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s02c2",
+          "text": "The User Interface proposed a voice recognition feature.",
+          "sent_idx": null,
+          "public_id": "S001.6",
+          "label": "CONTRADICTED",
+          "evidence_lines": "116-120, 144, 180",
+          "error_type": "speaker_attribution",
+          "atomicity": "atomic",
+          "notes": "Marketing (Genevieve), not User Interface, presented the voice recognition idea from market research (116-120), and the team subsequently rejected it (144, 180)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s04c1",
+          "text": "The Project Manager is to research voice recognition feasibility.",
+          "sent_idx": null,
+          "public_id": "S001.7",
+          "label": "CONTRADICTED",
+          "evidence_lines": "118-127, 144, 180",
+          "error_type": "revision_ignored",
+          "atomicity": "atomic",
+          "notes": "While PM initially said voice recognition could be looked into if targeting young adults (119), the team then discussed its drawbacks and completely wrote off voice recognition (120-127, 144, 180)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s03c1",
+          "text": "The team decided to focus on the 15-25 year old demographic for voice recognition.",
+          "sent_idx": null,
+          "public_id": "S001.8",
+          "label": "CONTRADICTED",
+          "evidence_lines": "117-127, 144-148, 180",
+          "error_type": "revision_ignored",
+          "atomicity": "atomic",
+          "notes": "The team rejected voice recognition (180) and agreed to cater more to older age groups (20s and older) rather than 15-25 year olds who may not have 25 Euros to spend on a remote (144-148)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s05c1",
+          "text": "The Industrial Designer is to design durable buttons.",
+          "sent_idx": null,
+          "public_id": "S001.9",
+          "label": "SUPPORTED",
+          "evidence_lines": "75-79, 234, 249-254, 267",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "PM and Marketing emphasized the need for durable channel buttons that won't rub off (75-79), and ID and PM agreed on durable soft rubber buttons shaped like the numbers themselves as they moved into the design phase (234, 249-254, 267)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s06c2",
+          "text": "The team decided to use an alarm system with infrared signaling.",
+          "sent_idx": null,
+          "public_id": "S001.10",
+          "label": "SUPPORTED",
+          "evidence_lines": "12, 197-218",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team agreed to implement an alarm/beeper system using an adhesive button stuck to the TV with infrared signalling, with ID tasked to research its power source (198-218)."
+        },
+        {
+          "cid": "ES2015b__qwen2.5-7b_s01c2",
+          "text": "The design is to ensure international compatibility.",
+          "sent_idx": null,
+          "public_id": "S001.11",
+          "label": "SUPPORTED",
+          "evidence_lines": "42, 47, 49-60, 182",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "User Interface argued that a single-function TV remote is easier to make compatible across TV brands internationally (42, 47, 49-51), and the team agreed on this approach (53-60)."
+        }
+      ]
+    },
+    {
+      "sid": "S002",
+      "meeting_id": "ES2006c",
+      "sentences": [],
+      "rate_summary": true,
+      "rating": 2,
+      "human_check": "yes",
+      "missed": "Omitted key final concept decisions summarized at lines 305-335: advanced integrated circuit chip, voice recognition and programmable sample speaker included, flip-open single-curved rubber case and rubber buttons (ruling out solar cells, wood, and titanium), minimalist outer push-buttons (0-9, power, volume) with an inner LCD screen and iPod-style spinning wheel, bright fruit/vegetable theme and colours with company colours on the buttons; and action items for UI (user interface design + clay prototype with ID) and Marketing (product evaluation).",
+      "claims": [
+        {
+          "cid": "ES2006c__qwen2.5-7b_s00c1",
+          "text": "The team discussed user interface concepts.",
+          "sent_idx": null,
+          "public_id": "S002.1",
+          "label": "SUPPORTED",
+          "evidence_lines": "1, 38-41, 61-103, 222-265, 326-335",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team presented and discussed user interface concepts including push-buttons, scroll wheels, spinning wheels, LCD displays, and voice recognition (38-41, 61-103, 222-265)."
+        },
+        {
+          "cid": "ES2006c__qwen2.5-7b_s02c1",
+          "text": "The team decided to include a spinning wheel on the remote control.",
+          "sent_idx": null,
+          "public_id": "S002.2",
+          "label": "SUPPORTED",
+          "evidence_lines": "80-95, 121, 188, 258-260, 275, 328-335",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "The team decided to include an iPod-style spinning wheel with the LCD display on the inside of the flip-open remote (121, 188, 258-260, 328-335)."
+        },
+        {
+          "cid": "ES2006c__qwen2.5-7b_s03c3",
+          "text": "The Project Manager chose a simple battery over kinetic energy.",
+          "sent_idx": null,
+          "public_id": "S002.3",
+          "label": "CONTRADICTED",
+          "evidence_lines": "193-199, 300-304, 326",
+          "error_type": "speaker_attribution",
+          "atomicity": "atomic",
+          "notes": "Project Manager initially wanted to keep kinetic energy on the board (198); it was the Industrial Designer who later proposed choosing the simple battery over kinetic energy as a safer option (300), which Marketing and PM then agreed to (302-304, 326)."
+        },
+        {
+          "cid": "ES2006c__qwen2.5-7b_s01c0",
+          "text": "The Industrial Designer proposed using a whiteboard for presentations.",
+          "sent_idx": null,
+          "public_id": "S002.4",
+          "label": "SUPPORTED",
+          "evidence_lines": "4-5, 50, 118",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Industrial Designer used the whiteboard instead of PowerPoint for his presentation and proposed using it to integrate and cross off options across the team's presentations (4-5, 50, 118)."
+        },
+        {
+          "cid": "ES2006c__qwen2.5-7b_s02c2",
+          "text": "The Industrial Designer is to update the design document accordingly.",
+          "sent_idx": null,
+          "public_id": "S002.5",
+          "label": "INSUFFICIENT",
+          "evidence_lines": "4, 105-106, 118, 188-190, 336",
+          "error_type": "fabrication",
+          "atomicity": "fragment",
+          "notes": "Industrial Designer only updated options on the whiteboard during the meeting (118, 188-190) and was asked to place his presentation in the project documents folder if he had one (105-106, 336), never to 'update the design document accordingly'."
+        },
+        {
+          "cid": "ES2006c__qwen2.5-7b_s06c0",
+          "text": "The Industrial Designer is to work on action items with a deadline for the next meeting.",
+          "sent_idx": null,
+          "public_id": "S002.6",
+          "label": "SUPPORTED",
+          "evidence_lines": "336, 338",
+          "error_type": null,
+          "atomicity": "atomic",
+          "notes": "Project Manager tasked the Industrial Designer with working on the look-and-feel design and collaborating with User Interface on the modelling clay prototype in the 30 minutes before the next meeting (336, 338)."
+        },
+        {
+          "cid": "ES2006c__qwen2.5-7b_s07c0",
+          "text": "The Project Manager addressed stress expressed by the Marketing participant.",
+          "sent_idx": null,
+          "public_id": "S002.7",
+          "label": "CONTRADICTED",
+          "evidence_lines": "336, 340-344",
+          "error_type": "status_flip",
+          "atomicity": "atomic",
+          "notes": "Marketing was joking about sitting alone while the two designers worked together on the clay prototype ('Cool, I'm gonna go and sit on my own... I know, I'm hated') and getting tangled in laptop wires (340-344), not expressing stress."
+        }
+      ]
+    }
+  ]
+}

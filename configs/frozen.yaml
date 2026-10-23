@@ -1,0 +1,149 @@
+# C-PROVE default configuration
+# Tuned for: RTX 5060 Laptop (8 GB VRAM), 16 GB RAM, Windows 11 or Linux.
+seed: 42
+
+paths:
+  data: data                # raw corpora (AMI, ICSI, TofuEval) go here
+  cache: cache              # per-stage cached outputs, LLM cache
+  models: models            # GGUF files + fine-tuned checkpoints
+  outputs: outputs          # results, tables, figures
+  bench: data/meetverify    # MeetVerify-Human / -Synth
+
+data:
+  corpus: ami               # ami | icsi | tofueval
+  split_seed: 42
+  split_ratio: [0.70, 0.15, 0.15]   # AMI 142 meetings -> 99 / 21 / 22
+  max_meetings: null        # set e.g. 5 for smoke runs
+
+llm:
+  backend: ollama         # llamacpp | ollama | openai_compat | heuristic
+  # Qwen2.5-7B-Instruct Q4_K_M ~4.7 GB weights; n_ctx 8192 -> ~5.6 GB total VRAM
+  gguf_path: models/qwen2.5-7b-instruct-q4_k_m.gguf
+  n_ctx: 8192
+  n_gpu_layers: -1          # all layers on GPU; drop to 24 if OOM
+  temperature: 0.0
+  max_tokens: 768
+  ollama_model: qwen2.5:7b-instruct-q4_K_M
+  ollama_url: http://localhost:11434
+  openai_compat_url: http://localhost:8080/v1   # llama-server
+  cache_file: cache/llm_cache.jsonl
+
+summarisers:                # Stage 0: systems whose summaries we verify (MeetVerify-Human)
+  - name: qwen2.5-7b
+    gguf_path: models/qwen2.5-7b-instruct-q4_k_m.gguf
+  - name: llama3.1-8b
+    gguf_path: models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
+  - name: mistral-7b
+    gguf_path: models/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf
+
+frames:
+  max_claims_per_sentence: 4
+  use_llm: true             # false -> heuristic decomposer (CPU, for ablation/smoke)
+
+retrieval:
+  encoder: BAAI/bge-base-en-v1.5
+  dense_weight: 0.7
+  sparse_weight: 0.3
+  top_k: 5
+  context_window: 2         # +-2 utterances around each hit (as in notebook)
+  slot_boost: 0.15          # bonus when a frame slot (agent/time/qty) appears in the utterance
+
+nli:
+  model: MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+  minicheck: lytang/MiniCheck-Flan-T5-Large   # optional second fact scorer
+  use_minicheck: false
+  batch_size: 8
+  max_length: 512
+  fp16: true
+
+graph:
+  window_sents: 3           # candidate pairs within 3 summary sentences
+  edge_classifier: models/edge_clf     # optional fine-tuned DeBERTa-v3-base; else rules
+  min_edge_conf: 0.5
+
+dimensions:
+  status_classifier: models/status_clf  # fine-tuned DeBERTa-v3-base on utterance->status
+  da_classifier: models/da_clf          # dialogue-act classifier (AMI DA labels)
+  calibration: isotonic                 # isotonic | temperature | none
+  calibrators: models/calibrators.pkl
+
+hlmrf:
+  solver: pgd               # pgd | admm
+  iters: 200
+  lr: 0.1
+  tol: 1.0e-5
+  squared: true             # p_r = 2 for all rules except R1 (linear)
+  init_weights:             # starting lambda_r before learning
+    R1_evidence: 2.0
+    R1b_contradiction: 2.0
+    R2_attribution: 1.5
+    R3_temporal: 1.0
+    R4_revision: 1.5
+    R5_status: 1.5
+    R6_dependency: 1.0
+    R7_exclusion: 2.0
+    R8_agent: 0.8
+    R9a_upper: 3.0           # Faithful -> every applicable dimension (soft min)
+    R9b_lower: 1.5           # mean(dimensions) -> Faithful
+    R10_prior: 0.05          # weak prior: not faithful
+    R10b_rsn_prior: 0.5      # reasoning-consistent unless the graph says otherwise
+    RJ_judge: 2.5            # LLM-judge atom added by the adaptive verifier
+  learned_weights: models/rule_weights.json
+  learn:
+    unroll: 50
+    epochs: 30
+    lr: 0.05
+    l2: 1.0e-3
+
+adaptive:
+  scheduler: voi            # none | all | random | entropy | voi
+  budget_frac: 0.25         # judge at most 25% of claims per summary
+  epsilon: 0.02             # stop when max VoI < epsilon
+  judge_weight: 2.5         # lambda for the LLM-judge atom
+
+mti:
+  omega: {decision: 2.0, action_item: 2.0, fact: 1.0, opinion: 1.0, event: 1.0}
+  conformal_alpha: 0.10
+  components: [coverage, contradiction_density, attribution, temporal, support_quality]
+
+labels:
+  risk_alpha: 0.10          # conformal risk control on selective labelling
+  tau_supported: 0.5
+
+train:
+  status_clf:
+    base: microsoft/deberta-v3-base
+    epochs: 4
+    lr: 2.0e-5
+    batch_size: 16
+    grad_accum: 2
+    max_length: 192
+    fp16: true
+  edge_clf:
+    base: microsoft/deberta-v3-base
+    epochs: 4
+    lr: 2.0e-5
+    batch_size: 16
+    max_length: 160
+  qlora_frames:             # optional: distil frame extraction into Qwen2.5-1.5B/3B
+    base: Qwen/Qwen2.5-3B-Instruct
+    r: 16
+    alpha: 32
+    epochs: 2
+    lr: 2.0e-4
+    batch_size: 2
+    grad_accum: 8
+    max_length: 1024
+
+eval:
+  bootstrap: 10000
+  seeds: [13, 42, 2026]
+
+# ---- FROZEN revision configuration (do not edit after the independent annotation is collected) ----
+numeric:
+  scale_entailment: false   # numeric inconsistency is a SEPARATE binary feature/veto, never folded into p_ent
+veto:
+  numeric: true
+  contradiction: 0.9        # null disables the contradiction veto
+  cap: 0.25
+  arith: false              # allow sums/differences of transcript numbers (sensitivity test only)
