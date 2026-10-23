@@ -1,0 +1,13 @@
+{
+ "oracle/k5/w2": {
+  "auroc": 0.7598408435944459,
+  "ci": [
+   0.6989232930466741,
+   0.8105803575264129
+  ],
+  "gold_coverage": 1.0,
+  "false_alarms": 88,
+  "retrieval_miss": 0,
+  "nli_error": 28
+ }
+}

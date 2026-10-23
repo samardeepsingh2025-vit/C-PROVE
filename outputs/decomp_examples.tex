@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Decomposition examples: a summary sentence and the atomic claims extracted from it, with the author's label (S: supported, U: unsupported, V: unverifiable).}
+\label{tab:decompex}
+\small
+\begin{tabularx}{\textwidth}{@{}lXX@{}}
+\toprule
+Category & Summary sentence & Extracted claims \\
+\midrule
+multi-actor & The team decided to set the selling price at 25 Euros (17 Pounds) with a production cost of 12.5 Euros, aiming for a profit of 50 million Euros in the first year (decided by the Project Manager). & (S) The team decided to set the selling price at 25 Euros. \newline (?) The team decided to set the selling price at 17 Pounds. \newline (S) The team decided on a production cost of 12.5 Euros. \newline (S) The Project Manager decided on a profit target of 50 million Euros in the first year. \\
+multi-decision & The team decided to aim for a modern, user-friendly, and sturdy design, considering a ball-shaped design with a flat bottom and exploring a hinge or keyboard-type design. & (S) The team decided to aim for a modern, user-friendly, and sturdy design. \newline (S) The team considered a ball-shaped design with a flat bottom. \newline (?) The team explored a hinge or keyboard-type design. \\
+negation & The plan was adjusted to focus on a flat design with grips on the sides, eliminating the ball function, and adding sensors on both sides for directionality, though this was later dropped due to cost concerns. & (S) The plan was adjusted to focus on a flat design with grips on the sides. \newline (?) The ball function was eliminated. \newline (?) Sensors on both sides for directionality were added. \newline (U) The plan was later dropped due to cost concerns. \\
+quantity & The team decided to set the selling price at 25 Euros (17 Pounds) with a production cost of 12.5 Euros, aiming for a profit of 50 million Euros in the first year (decided by the Project Manager). & (S) The team decided to set the selling price at 25 Euros. \newline (?) The team decided to set the selling price at 17 Pounds. \newline (S) The team decided on a production cost of 12.5 Euros. \newline (S) The Project Manager decided on a profit target of 50 million Euros in the first year. \\
+revision & Marketing proposed using metallic grey instead of yellow for the design, and the Project Manager evaluated the product against budget and performance metrics, scoring it 1.9 and confirming it was under budget. & (U) Marketing proposed using metallic grey instead of yellow for the design. \newline (S) The Project Manager evaluated the product against budget and performance metrics. \newline (S) The Project Manager scored the product 1.9. \newline (S) The Project Manager confirmed the product was under budget. \\
+\bottomrule
+\end{tabularx}
+\end{table}

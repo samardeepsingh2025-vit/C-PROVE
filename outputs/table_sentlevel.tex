@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Sentence-level versus claim-level verification on the same summary sentences. A sentence is supported only if all its labelled claims are. The claim-level rows aggregate the out-of-fold fusion trust of the sentence's claims; sentence-level fusion is refitted in every fold.}
+\label{tab:sentlevel}
+\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Method & AUROC [95\% CI] & AUPRC (unsup.) & Brier \\
+\midrule
+Entailment (sentence) & 0.677 [0.612, 0.733] & 0.640 & 0.310 \\
+MiniCheck (sentence) & 0.716 [0.640, 0.779] & 0.728 & 0.330 \\
+Fusion ent+con+mc (sentence, refit in folds) & 0.705 [0.634, 0.771] & 0.658 & 0.218 \\
+Claim-level fusion, min over claims & 0.777 [0.711, 0.834] & 0.789 & 0.195 \\
+Claim-level fusion, mean over claims & 0.766 [0.698, 0.823] & 0.760 & 0.219 \\
+\bottomrule
+\end{tabular}
+\end{table}

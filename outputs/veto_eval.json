@@ -1,0 +1,78 @@
+{
+ "numeric veto": {
+  "triggered": 0,
+  "per_set": {
+   "dev": 0,
+   "test": 0
+  },
+  "precision": NaN,
+  "recall_of_unsupported": 0.0,
+  "support_rate_among_vetoed": NaN
+ },
+ "contradiction p_con>=0.7": {
+  "triggered": 36,
+  "per_set": {
+   "dev": 16,
+   "test": 20
+  },
+  "precision": 0.6388888888888888,
+  "recall_of_unsupported": 0.13068181818181818,
+  "support_rate_among_vetoed": 0.3611111111111111
+ },
+ "contradiction p_con>=0.8": {
+  "triggered": 25,
+  "per_set": {
+   "dev": 12,
+   "test": 13
+  },
+  "precision": 0.76,
+  "recall_of_unsupported": 0.10795454545454546,
+  "support_rate_among_vetoed": 0.24
+ },
+ "contradiction p_con>=0.9": {
+  "triggered": 9,
+  "per_set": {
+   "dev": 4,
+   "test": 5
+  },
+  "precision": 0.8888888888888888,
+  "recall_of_unsupported": 0.045454545454545456,
+  "support_rate_among_vetoed": 0.1111111111111111
+ },
+ "contradiction p_con>=0.95": {
+  "triggered": 5,
+  "per_set": {
+   "dev": 1,
+   "test": 4
+  },
+  "precision": 1.0,
+  "recall_of_unsupported": 0.028409090909090908,
+  "support_rate_among_vetoed": 0.0
+ },
+ "numeric OR con>=0.9": {
+  "triggered": 9,
+  "per_set": {
+   "dev": 4,
+   "test": 5
+  },
+  "precision": 0.8888888888888888,
+  "recall_of_unsupported": 0.045454545454545456,
+  "support_rate_among_vetoed": 0.1111111111111111
+ },
+ "both_high": {
+  "n": 0,
+  "supported_rate": null
+ },
+ "fusion": {
+  "auroc": 0.8031503798794866,
+  "auprc": 0.6948357395210519,
+  "brier": 0.16041036502696746,
+  "ece": 0.049635874209926024
+ },
+ "fusion + veto(num|con>=0.9, cap .25)": {
+  "auroc": 0.8036497904113178,
+  "auprc": 0.6960919147633061,
+  "brier": 0.16011633548483742,
+  "ece": 0.049013560085125925
+ }
+}

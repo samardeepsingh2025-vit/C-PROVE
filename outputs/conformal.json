@@ -1,0 +1,50 @@
+{
+ "CRC@0.05": {
+  "coverage_mean": 0.3925731475676007,
+  "coverage_sd": 0.10582906450776866,
+  "joint_risk_mean": 0.049335010807222746,
+  "joint_risk_p95": 0.10256410256410256,
+  "selective_error_mean": 0.11632079815588367,
+  "violation_rate": 0.453
+ },
+ "LTT@0.05": {
+  "coverage_mean": 0.0,
+  "coverage_sd": 0.0,
+  "joint_risk_mean": 0.0,
+  "joint_risk_p95": 0.0,
+  "selective_error_mean": 0.0,
+  "violation_rate": 0.0
+ },
+ "CRC@0.1": {
+  "coverage_mean": 0.6768081782936847,
+  "coverage_sd": 0.10113851803942858,
+  "joint_risk_mean": 0.09789040582905542,
+  "joint_risk_p95": 0.1655024509803921,
+  "selective_error_mean": 0.1398299186236673,
+  "violation_rate": 0.409
+ },
+ "LTT@0.1": {
+  "coverage_mean": 0.0,
+  "coverage_sd": 0.0,
+  "joint_risk_mean": 0.0,
+  "joint_risk_p95": 0.0,
+  "selective_error_mean": 0.0,
+  "violation_rate": 0.0
+ },
+ "CRC@0.2": {
+  "coverage_mean": 0.9349822499758587,
+  "coverage_sd": 0.04736168352135801,
+  "joint_risk_mean": 0.19830053882560597,
+  "joint_risk_p95": 0.2757272598268767,
+  "selective_error_mean": 0.21016453470674631,
+  "violation_rate": 0.483
+ },
+ "LTT@0.2": {
+  "coverage_mean": 0.0,
+  "coverage_sd": 0.0,
+  "joint_risk_mean": 0.0,
+  "joint_risk_p95": 0.0,
+  "selective_error_mean": 0.0,
+  "violation_rate": 0.0
+ }
+}

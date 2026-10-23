@@ -246,26 +246,26 @@ def dim_sem(m: Meeting, c: Claim, G: list[int], status_model: StatusModel) -> Op
     return float(np.clip(s, 0.02, 0.98))
 
 
-_NUMW = {"0": "zero", "1": "one", "2": "two", "3": "three", "4": "four", "5": "five", "6": "six", "7": "seven", "8": "eight",
-         "9": "nine", "10": "ten", "11": "eleven", "12": "twelve", "15": "fifteen", "20": "twenty", "25": "twenty five",
-         "30": "thirty", "40": "forty", "50": "fifty", "60": "sixty", "100": "hundred"}
+SCALE_ENT_ON_UNSEEN = True      # legacy behaviour; frozen/revision config sets numeric.scale_entailment: false
+_TXT_CACHE: dict = {}
+
+
+def _transcript_text(m: Meeting) -> str:
+    t = _TXT_CACHE.get(m.meeting_id)
+    if t is None:
+        t = _TXT_CACHE[m.meeting_id] = " ".join(u.text for u in m.utterances)
+    return t
+
+
+def numeric_check(m: Meeting, c: Claim, allow_arith: bool = False) -> dict:
+    """Deterministic numeric-inconsistency check on normalised VALUES (digits, spelled-out numbers, decimals, k/million)."""
+    from .numnorm import numeric_report
+    return numeric_report(_transcript_text(m), c.text, allow_arith)
 
 
 def unseen_numbers(m: Meeting, c: Claim) -> bool:
-    """True if the claim states a number that appears nowhere in the transcript (digits or spelled out)."""
-    import re
-    nums = re.findall(r"\d+(?:[.,]\d+)?", c.text)
-    if not nums:
-        return False
-    tr = " ".join(u.text for u in m.utterances).lower()
-    seen = set(re.findall(r"\d+(?:[.,]\d+)?", tr))
-    words = set(tr.split())
-    for n in nums:
-        w = _NUMW.get(n)
-        if n in seen or (w and all(x in words for x in w.split())):
-            continue
-        return True
-    return False
+    """True if the claim states a numeric value that occurs nowhere in the transcript (after normalisation)."""
+    return bool(numeric_check(m, c)["unseen"])
 
 
 class DimensionScorer:
@@ -276,11 +276,12 @@ class DimensionScorer:
         G = _grounding_idx(m, c, ev)
         tl = self.ret.object_timeline(m, c) if self.ret else []
         nli = dict(nli)
-        if unseen_numbers(m, c):                      # fabricated figure: NLI can be fooled by unrelated evidence
+        num_unseen = unseen_numbers(m, c)
+        if num_unseen and SCALE_ENT_ON_UNSEEN:        # legacy: veto folded into the NLI feature
             nli["ent"] *= 0.2
         fact_raw = float(np.clip(0.5 + 0.5 * (nli["ent"] - nli["con"]), 0, 1))
         return dict(
-            ent=nli["ent"], con=nli["con"], fact=fact_raw,
+            ent=nli["ent"], con=nli["con"], fact=fact_raw, num_unseen=float(num_unseen),
             attr=dim_attr(m, c, ev, G), temp=dim_temp(m, c, ev, G, ref_date),
             ctx=dim_ctx(m, c, G, tl), sem=dim_sem(m, c, G, self.sm), grounding=G,
         )

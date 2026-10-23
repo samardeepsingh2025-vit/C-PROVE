@@ -1,0 +1,29 @@
+{
+ "counts": {
+  "revises": 105,
+  "causes": 477,
+  "task_depends": 1369,
+  "coref": 2687,
+  "before": 373,
+  "conflicts": 175,
+  "same_agent": 14688
+ },
+ "per_summary": {
+  "revises": 0.07686676427525622,
+  "causes": 0.349194729136164,
+  "task_depends": 1.0021961932650074,
+  "coref": 1.9670571010248903,
+  "before": 0.2730600292825769,
+  "conflicts": 0.1281112737920937,
+  "same_agent": 10.752562225475842
+ },
+ "same_sentence": {
+  "revises": 0.05714285714285714,
+  "causes": 0.1719077568134172,
+  "task_depends": 0.2724616508400292,
+  "coref": 0.7179010048381094,
+  "before": 0.7613941018766756,
+  "conflicts": 0.5257142857142857,
+  "same_agent": 0.36431100217864926
+ }
+}

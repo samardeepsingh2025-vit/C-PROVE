@@ -13,7 +13,7 @@ click==8.5.0
 cloudpickle==3.1.2
 colorama==0.4.6
 contourpy==1.3.3
--e git+https://github.com/samardeepsingh2025-vit/C-PROVE.git@6aef6fc8cf87bb505fb51a0d880e47ea06de9018#egg=cprove
+-e git+https://github.com/samardeepsingh2025-vit/C-PROVE.git@c6b801a80a78e2dc9f3b90857353dabb645ac2c4#egg=cprove
 cycler==0.12.1
 datasets==5.1.0
 defusedxml==0.7.1

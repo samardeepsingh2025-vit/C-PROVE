@@ -68,6 +68,9 @@ class CProve:
         self.ab = ablation or Ablation()
         c = self.cfg
         self.llm = make_llm(c["llm"])
+        from . import dimensions as _dims
+        _dims.SCALE_ENT_ON_UNSEEN = bool(c.get("numeric", {}).get("scale_entailment", True))
+        self.veto_cfg = {"numeric": True, "contradiction": 0.9, "cap": 0.25, "arith": False, **c.get("veto", {})}
         self.judge_llm = judge_llm or self.llm
         self.frames = FrameExtractor(self.llm, c["frames"]["max_claims_per_sentence"], c["frames"]["use_llm"])
         r = c["retrieval"]
@@ -128,15 +131,20 @@ class CProve:
         a = self.cfg["adaptive"]
         y, trace = adaptive_verify(self.model, prog, judge, sch, a["budget_frac"], a["epsilon"])
         post = self.model.posteriors(prog, y)
-        from .dimensions import unseen_numbers
-        veto = {}
+        from .dimensions import numeric_check
+        V = self.veto_cfg
+        veto, veto_kind = {}, {}
         for c in claims:                              # hard vetoes: absent figure / strong transcript contradiction
-            if unseen_numbers(m, c):
-                veto[c.cid] = "A number in this claim does not appear anywhere in the transcript."
-            elif obs[c.cid].con >= 0.9:
+            nc = numeric_check(m, c, V["arith"]) if V["numeric"] else {"unseen": []}
+            if nc["unseen"]:
+                nums = ", ".join(f"{v:g}" for v in nc["unseen"])
+                veto[c.cid] = f"Numeric check: the value(s) {nums} in this claim do not occur in the transcript (after number normalisation)."
+                veto_kind[c.cid] = "numeric"
+            elif V["contradiction"] is not None and obs[c.cid].con >= V["contradiction"]:
                 veto[c.cid] = f"Transcript contradicts the claim (p_con={obs[c.cid].con:.2f})."
+                veto_kind[c.cid] = "contradiction"
             if c.cid in veto:
-                post[c.cid]["y"] = min(post[c.cid]["y"], 0.25)
+                post[c.cid]["y"] = min(post[c.cid]["y"], V["cap"])
         labels = dict(zip([c.cid for c in claims], self.labeler([post[c.cid]["y"] for c in claims])))
         for cid in veto:
             labels[cid] = "UNSUPPORTED"
@@ -152,11 +160,18 @@ class CProve:
             tr = proof_trace(prog, compd, y, lam, c.cid, explain_k + 3)
             tr = [t for t in tr if not t["text"].startswith(("Average of the dimensions", "Prior:"))]
             if c.cid in veto:
-                tr = [t for t in tr if "supports" not in t["text"] and "entails" not in t["text"] and not t["text"].startswith("Transcript contradicts")]
-                tr.insert(0, {"rule": "veto", "kind": "veto", "score": 1.0, "text": veto[c.cid]})
-            proofs[c.cid] = tr[:explain_k]
+                # keep ALL evidence in the trace: items that disagree with the veto are flagged, never removed
+                for t in tr:
+                    if "supports" in t["text"] or "entails" in t["text"]:
+                        t["text"] += "  [conflicts with the veto below; shown for transparency]"
+                        t["conflicts_with_veto"] = True
+                tr.insert(0, {"rule": "veto", "kind": "veto:" + veto_kind[c.cid], "score": 1.0, "text": veto[c.cid]})
+            proofs[c.cid] = tr[:explain_k + (1 if c.cid in veto else 0)]
+            ev_lines = [ln for ln in evid[c.cid].text.split("\n")][:4]
+            proofs[c.cid].append({"rule": "evidence", "kind": "evidence", "score": 0.0,
+                                  "text": "Top retrieved transcript lines: " + " | ".join(ev_lines)})
         return Result(summary_id, claims, edges, obs, post, labels, score, self.mti_ci(score), comp, proofs,
-                      trace, prog, {"evidence": evid, "nli": nli, "order_ok": ok})
+                      trace, prog, {"evidence": evid, "nli": nli, "order_ok": ok, "veto": veto, "veto_kind": veto_kind})
 
     @staticmethod
     def _neighbour_fn(claims, edges):

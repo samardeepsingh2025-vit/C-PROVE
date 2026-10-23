@@ -1,0 +1,12 @@
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Stage & s/summary & s/claim \\
+\midrule
+Claim decomposition (Qwen2.5-7B via Ollama) & 21.83 & 1.16 \\
+Edge construction & 0.00 & 0.00 \\
+Retrieval, NLI, attribution/status/temporal/context features & 9.95 & 0.54 \\
+HL-MRF inference (hand weights) & 0.01 & 0.00 \\
+Total without MiniCheck & 31.80 & 1.70 \\
+MiniCheck (flan-t5-large, full transcript) & 83.6 & 4.42 \\
+\bottomrule
+\end{tabular}
