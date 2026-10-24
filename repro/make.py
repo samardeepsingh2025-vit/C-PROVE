@@ -24,6 +24,12 @@ T = {
  "conformal":       (["python -m train.conformal_eval"], "outputs/conformal_eval.json"),
  "decomposition":   (["python -m train.decomp_stats", "python -m train.sentence_baseline --stage eval", "python -m train.decomp_match"], "outputs/decomp_examples.tex, table_sentlevel.tex"),
  "efficiency":      (["python -m train.efficiency_stages --n 12 --mc_s 4.42"], "outputs/table_efficiency.tex"),
+ "tofueval":        (["python -m train.tofueval_frozen"], "TofuEval-MeetingBank frozen rerun"),
+ "status":          (["python -m train.status_check"], "decision-status check"),
+ "miss_split":      (["python -m train.miss_split"], "retrieval-miss vs model-error split"),
+ "series_cv":       (["python -m train.series_cv"], "outputs/series_cv.json (leave-one-series-out)"),
+ "f1_ci":           (["python -m train.f1_ci"], "macro-F1 CIs"),
+ "cov_check":       (["python -m train.cov_check"], "gold coverage"),
  "check":           (["python repro/check_leakage.py", "python -m pytest -q tests"], "leakage check + unit tests"),
 }
 if __name__ == "__main__":
