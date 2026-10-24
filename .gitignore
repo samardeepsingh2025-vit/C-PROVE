@@ -1,10 +1,34 @@
-cache/
+# raw corpus (large, public; users download it themselves)
+data/ami_public_manual_1.6.2/
+data/amicorpus/
+data/ami_meetings.jsonl
+
+# models and caches, but KEEP the frozen feature table so the tables can be regenerated
 models/
+cache/*
+!cache/frozen/
+cache/frozen/*.npy
+cache/frozen/*.pkl
+
+# private / generated
+data/meetverify_v2/key_private.json
+.env
 outputs/*.png
+outputs/*.npy
 __pycache__/
 *.pyc
 *.partial.json
 *.bak
-data/ami_meetings.jsonl
-data/meetverify_v2/key_private.json
-.env
+
+data/meetverify_v2/agreement/key_private.json
+data/meetverify_v2/pack*.json
+cprove.egg-info/
+cache_llama/
+c2/
+ov.py
+where.py
+alignscore_run.py
+data/smoke/
+outputs/smoke/
+data/meetverify_v3/
+bench/annot/

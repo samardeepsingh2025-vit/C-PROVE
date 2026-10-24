@@ -1,0 +1,125 @@
+{
+ "series": 10,
+ "results": {
+  "minicheck": {
+   "auroc": 0.7388492271417345,
+   "auroc_ci": [
+    0.6835081992995048,
+    0.7856796305947175
+   ],
+   "auprc_unsup": 0.6061446185065558,
+   "ece10": 0.18708739804645316
+  },
+  "entailment": {
+   "auroc": 0.769927298925858,
+   "auroc_ci": [
+    0.7134324325873165,
+    0.8168363763115735
+   ],
+   "auprc_unsup": 0.6099436502494854,
+   "ece10": 0.1571326594647128
+  },
+  "fusion (selected, series-CV)": {
+   "auroc": 0.8021679329316216,
+   "auroc_ci": [
+    0.7401919462544861,
+    0.8547916477799287
+   ],
+   "auprc_unsup": 0.7053205493276027,
+   "ece10": 0.04476339522893898,
+   "vs_minicheck": [
+    0.06331870578988708,
+    0.01101348042898071,
+    0.12232225196013603,
+    0.018
+   ]
+  },
+  "fusion +mc (series-CV)": {
+   "auroc": 0.8007270107414199,
+   "auroc_ci": [
+    0.7420308526589381,
+    0.8515962688677944
+   ],
+   "auprc_unsup": 0.7076376602036222,
+   "ece10": 0.05577466810303815,
+   "vs_minicheck": [
+    0.06187778359968543,
+    0.013224896893155286,
+    0.12064043672523941,
+    0.012
+   ]
+  }
+ },
+ "choices": [
+  {
+   "features": "all",
+   "C": 1.0,
+   "inner_auroc": 0.8399,
+   "threshold": 0.59,
+   "meeting": "ES2003"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.8071,
+   "threshold": 0.57,
+   "meeting": "ES2004"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.8091,
+   "threshold": 0.54,
+   "meeting": "ES2006"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.803,
+   "threshold": 0.54,
+   "meeting": "ES2010"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.8099,
+   "threshold": 0.58,
+   "meeting": "ES2013"
+  },
+  {
+   "features": "ent+con+attr+sem+mc",
+   "C": 1.0,
+   "inner_auroc": 0.7907,
+   "threshold": 0.62,
+   "meeting": "ES2015"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.8128,
+   "threshold": 0.56,
+   "meeting": "ES2016"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.8162,
+   "threshold": 0.6,
+   "meeting": "IS1006"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.8088,
+   "threshold": 0.59,
+   "meeting": "TS3010"
+  },
+  {
+   "features": "all",
+   "C": 0.1,
+   "inner_auroc": 0.8068,
+   "threshold": 0.6,
+   "meeting": "TS3011"
+  }
+ ]
+}

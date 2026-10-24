@@ -1,0 +1,4 @@
+cid,claim,y_nograph,y_graph,label,flip_correct
+ES2015d__qwen2.5-7b_s05c1,Marketing suggested using watermelon for seasonal appeal.,0.414,0.525,UNSUPPORTED,False
+ES2015d__qwen2.5-7b_s12c2,The Project Manager scored the product 1.9.,0.425,0.556,SUPPORTED,True
+TS3010d__qwen2.5-7b_s07c2,The team decided to use push-buttons instead of a joystick.,0.536,0.498,SUPPORTED,False

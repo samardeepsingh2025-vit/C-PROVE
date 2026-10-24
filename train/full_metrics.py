@@ -78,9 +78,10 @@ for k, name in ORDER:
 t += ["\\bottomrule", "\\end{tabular}", "\\end{table}"]
 open("outputs/table_ece_variants.tex", "w").write("\n".join(t))
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
+plt.rcParams.update({"font.size": 8, "axes.titlesize": 8, "axes.labelsize": 8, "xtick.labelsize": 8, "ytick.labelsize": 8, "pdf.fonttype": 42})
 panels = [(k, n) for k, n in [("entailment", "Entailment"), ("minicheck", "MiniCheck"), ("fusion (selected in inner CV)", "Fusion (selected)"),
                               ("entailment (Platt in fold)", "Entailment + Platt"), ("minicheck (Platt in fold)", "MiniCheck + Platt"), ("fusion +mc", "Fusion + MiniCheck")] if k in P]
-fig, ax = plt.subplots(2, 3, figsize=(10, 6.4), sharex=True, sharey=True)
+fig, ax = plt.subplots(2, 3, figsize=(6.4, 4.4), sharex=True, sharey=True, constrained_layout=True)
 for A, (k, n) in zip(ax.ravel(), panels):
     p = np.array(P[k], float); e = np.unique(np.quantile(p, np.linspace(0, 1, 11))); xs, ys, ns = [], [], []
     for i in range(len(e) - 1):
@@ -88,10 +89,10 @@ for A, (k, n) in zip(ax.ravel(), panels):
         if m.any():
             xs.append(p[m].mean()); ys.append(y[m].mean()); ns.append(m.sum())
     A.plot([0, 1], [0, 1], "--", color="grey", lw=1); A.plot(xs, ys, "o-", color="#1f5fa8", ms=4)
-    A.set_title(f"{n}  (ECE {res[k]['ece10']:.3f})", fontsize=9); A.set_xlim(0, 1); A.set_ylim(0, 1)
+    A.set_title(f"{n}\nECE {res[k]['ece10']:.3f}", fontsize=7.5, linespacing=1.15); A.set_xlim(0, 1); A.set_ylim(0, 1)
 for A in ax[1]:
     A.set_xlabel("mean predicted P(supported)")
 for A in ax[:, 0]:
     A.set_ylabel("observed fraction supported")
-fig.tight_layout(); fig.savefig("outputs/reliability.png", dpi=200); fig.savefig("outputs/reliability.pdf")
+fig.savefig("outputs/reliability.pdf"); fig.savefig("outputs/reliability.png", dpi=300) 
 print("\nwrote outputs/table_main.tex, table_ece_variants.tex, reliability.png/.pdf, full_metrics.json")

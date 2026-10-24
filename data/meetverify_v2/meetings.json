@@ -1,0 +1,29 @@
+{
+ "seed": 2026,
+ "n_used_excluded": 40,
+ "n_eligible": 59,
+ "meetings": [
+  "ES2002d",
+  "ES2005c",
+  "ES2007c",
+  "ES2008d",
+  "ES2009a",
+  "ES2011d",
+  "ES2014d",
+  "IS1000b",
+  "IS1001b",
+  "IS1002c",
+  "IS1003b",
+  "IS1004c",
+  "IS1007d",
+  "IS1009d",
+  "TS3003d",
+  "TS3004a",
+  "TS3005d",
+  "TS3006b",
+  "TS3007d",
+  "TS3008d",
+  "TS3009a",
+  "TS3012c"
+ ]
+}
