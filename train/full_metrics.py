@@ -16,7 +16,7 @@ a = ap.parse_args()
 P = np.load(a.preds, allow_pickle=True).item(); cids = P.pop("cids")
 rows = {r["cid"]: r for r in load_rows(a.features)}
 y = np.array([int(rows[c]["author_label"] == "SUPPORTED") for c in cids]); g = np.array([rows[c]["meeting_id"] for c in cids])
-ORDER = [("summac", "SummaC-ZS"), ("qwenjudge", "Qwen2.5-7B zero-shot judge"), ("minicheck", "MiniCheck"), ("minicheck (Platt in fold)", "MiniCheck + Platt"), ("entailment", "Entailment only"),
+ORDER = [("summac", "SummaC-ZS"), ("qwenjudge", "Qwen2.5-7B zero-shot judge"), ("llamajudge", "Llama-3.1-8B zero-shot judge"), ("minicheck", "MiniCheck"), ("minicheck (Platt in fold)", "MiniCheck + Platt"), ("entailment", "Entailment only"),
          ("entailment (Platt in fold)", "Entailment + Platt"), ("cprove_hand_graph", "Hand weights, graph"), ("cprove_hand_nograph", "Hand weights, no graph"),
          ("fusion ent+con", "Fusion: ent+con"), ("fusion +attr+sem", "Fusion: +attr+status"),
          ("fusion (selected in inner CV)", "Fusion (selected)"), ("fusion +mc", "Fusion + MiniCheck")]
