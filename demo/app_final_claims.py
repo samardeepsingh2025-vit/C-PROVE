@@ -1,5 +1,5 @@
 """C-PROVE demo with the PAPER's method: learned, Platt-calibrated fusion (no graph, no MTI).
-  python -m demo.app_final            (opens http://127.0.0.1:7861)
+  python -m demo.app_final_claims    (opens http://127.0.0.1:7861)
 Tab 1  Verify your own: type/paste a transcript (or upload audio -> Whisper transcript) + a summary. Live pipeline = frozen config + MiniCheck-free fusion (~30 s per summary).
 Tab 2  Real AMI summaries: out-of-fold fusion probabilities vs the author labels (precomputed, instant, no GPU).
 Needs: cache/frozen/features.jsonl, outputs/nested_cv.preds.npy; Ollama running for Tab 2."""
@@ -11,9 +11,8 @@ SEL = "fusion (selected in inner CV)"
 BLOCKS = {"ent+con+attr+sem": ["ent", "con", "attr", "sem"], "ent+con+attr+sem+mc": ["ent", "con", "attr", "sem", "mc"]}
 _S = {}
 
-
 def colour(p, thr):
-    return "#f6b8b8" if p < thr else ("#fff2b3" if p < thr + 0.15 else "#c8f0c8")
+    return "#d9534f" if p < thr else ("#e0a800" if p < thr + 0.15 else "#2e9e4f")   # red / amber / green outline
 
 
 def table(rows):
@@ -22,9 +21,10 @@ def table(rows):
     for p, thr, text, extra in rows:
         note = p >= thr and ("number not found" in extra or "transcript contradicts" in extra)   # score says ok, but an automatic check raised a note
         label = "FLAG: likely unsupported" if p < thr else ("CHECK: an automatic check raised a note" if note else "ok")
-        bg = "#fff2b3" if note else colour(p, thr)
-        out.append(f"<div style='background:{bg};padding:6px;margin:4px;border-radius:6px;color:#111'>"
-                   f"<b>P(supported) = {p:.2f}</b> &nbsp; {label}<br>{html.escape(text)}{extra}</div>")
+        c = "#e0a800" if note else colour(p, thr)
+        out.append(f"<div style='border:2px solid {c};border-left:8px solid {c};background:transparent;"
+                   f"padding:6px 10px;margin:6px 4px;border-radius:6px'>"
+                   f"<b>P(supported) = {p:.2f}</b> &nbsp; <b style='color:{c}'>{label}</b><br>{html.escape(text)}{extra}</div>")
     return "".join(out)
 
 
@@ -116,8 +116,12 @@ def transcribe(audio, size, name, current):
         gpu = torch.cuda.is_available()
     except Exception:
         gpu = False
-    model = WhisperModel(size, device="cuda" if gpu else "cpu", compute_type="int8_float16" if gpu else "int8")
-    segs, _ = model.transcribe(audio, vad_filter=True)
+    try:
+        model = WhisperModel(size, device="cuda" if gpu else "cpu", compute_type="int8_float16" if gpu else "int8")
+        segs, _ = model.transcribe(audio, vad_filter=True); segs = list(segs)
+    except Exception:                                  # CUDA missing / GPU full (Ollama): use the CPU
+        model = WhisperModel(size, device="cpu", compute_type="int8")
+        segs, _ = model.transcribe(audio, vad_filter=True); segs = list(segs)
     who = (name or "").strip() or "Speaker"
     text = "\n".join(f"{who}: {x.text.strip()}" for x in segs if x.text.strip())
     del model
@@ -149,6 +153,28 @@ def details_html(r):
             + f"<tr><td>unseen number</td><td>{'yes' if r['num_unseen'] else 'no'}</td><td><small>a number in the claim does not occur in the transcript</small></td></tr>"
             "</table><small>The deployed model uses entailment, contradiction, attribution and status; temporal and context are shown for inspection "
             "(they were only used in the full-feature variant).</small></details>")
+
+
+def summary_banner(items):
+    """items: list of (p, thr, text, extra). Exploratory summary-level verdict (heuristic, not validated in the paper)."""
+    n = len(items)
+    flagged = sum(p < thr for p, thr, _, _ in items)
+    noted = sum(p >= thr and ("number not found" in e or "transcript contradicts" in e) for p, thr, _, e in items)
+    mean_p = sum(p for p, _, _, _ in items) / n
+    frac = flagged / n
+    if flagged == 0 and noted == 0:
+        verdict, c = "RELIABLE: no claims flagged", "#2e9e4f"
+    elif frac <= 0.25:
+        verdict, c = "REVIEW NEEDED: a few claims flagged", "#e0a800"
+    else:
+        verdict, c = "NOT RELIABLE: many claims flagged", "#d9534f"
+    return (f"<div style='border:3px solid {c};border-radius:8px;padding:10px 14px;margin:8px 4px'>"
+            f"<h3 style='margin:0;color:{c}'>Summary verdict: {verdict}</h3>"
+            f"<p style='margin:6px 0 0'>{n - flagged} of {n} claims supported (flagged: {flagged}) &nbsp;|&nbsp; "
+            f"mean P(supported) = {mean_p:.2f} &nbsp;|&nbsp; lowest claim = {min(p for p, _, _, _ in items):.2f}</p>"
+            "<p style='margin:4px 0 0'><small>Exploratory summary-level indicator based on the share of flagged claims. "
+            "The cut-offs (0% / 25%) are heuristic and not validated; use it to decide whether the summary needs human review, "
+            "not as proof of correctness.</small></p></div>")
 
 
 def verify(transcript, summary, use_mc):
@@ -183,7 +209,7 @@ def verify(transcript, summary, use_mc):
             "<p>P(supported) is the calibrated probability that the transcript supports the claim. "
             "It ranks claims for human review; it does not prove a claim true or false. "
             "Decision-status errors (decided vs only discussed) are not reliably detected.</p>")
-    return head + table(items)
+    return summary_banner(items) + head + table(items)
 
 
 def main():
